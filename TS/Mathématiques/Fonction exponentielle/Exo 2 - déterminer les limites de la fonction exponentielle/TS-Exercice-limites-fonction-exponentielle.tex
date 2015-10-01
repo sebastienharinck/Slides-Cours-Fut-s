@@ -1,0 +1,61 @@
+\documentclass[t]{beamer}
+%\usepackage[orientation=paysage,width=200,height=120,scale=2]{beamerposter}
+\usepackage{etex}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\usepackage{pst-eucl}
+
+\beamertemplatenavigationsymbolsempty
+% \usetheme{Warsaw}
+
+\definecolor{red}{HTML}{DD0000}
+\definecolor{green}{RGB}{51,110,23}
+\setbeamercolor{block title example}{fg=green}
+
+\title{TS : Fonction Exponentielle : Exercice 2}
+\author{Sébastien Harinck}
+\institute{www.cours-futes.com}
+\date{}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Déterminer les limites en $- \infty $ et en $+\infty$ des fonctions suivantes :}
+\pause
+\begin{enumerate}
+\item<+-> f définie sur $\mathbb{R}$ par $ f(x) = e^x +2x+1$
+\item<+-> h définie sur $\mathbb{R}$ par $ h(x) = e^x-x^2+2x+9$
+\item<+-> g définie sur $\mathbb{R}$ par $ g(x) = e^x(2x+1)$
+\item<+-> j définie sur $\mathbb{R}$ par $ j(x) = e^{-x}(-x+1)$
+\item<+-> i définie sur $\mathbb{R}$ par $ i(x) = \dfrac{e^x-x}{e^x+1}$
+\item<+-> k définie sur $\mathbb{R}$ par $ k(x) = xe^x+x^2+x-4$
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{f définie sur $\mathbb{R}$ par $ f(x) = e^x +2x+1$}
+\pause
+en $- \infty $ : \\
+\( \lim\limits_{h \rightarrow -\infty} e^x = 0 \) \\
+\( \lim\limits_{h \rightarrow -\infty} (2x+1) = -\infty \) \\
+Par somme, nous obtenons : $ \lim\limits_{h \rightarrow -\infty}f(x)= -\infty$
+en $+ \infty $ : \\
+\( \lim\limits_{h \rightarrow +\infty} e^x = + \infty \) \\
+\( \lim\limits_{h \rightarrow +\infty} (2x+1) = +\infty \) \\
+Par somme, nous obtenons : $ \lim\limits_{h \rightarrow +\infty}f(x)= + \infty$
+\end{frame}
+
+\begin{frame}
+\frametitle{h définie sur $\mathbb{R}$ par $ h(x) = e^x-x^2+2x+9$}
+\pause
+en $- \infty $ : \\
+\( \lim\limits_{h \rightarrow -\infty} e^x = 0 \) \\
+\( \lim\limits_{h \rightarrow -\infty} (-x^2+2x+9) = (x(-x+2) + 9) -\infty \) \\
+Par somme, nous obtenons : $ \lim\limits_{h \rightarrow -\infty}f(x)= -\infty$
+\end{frame}
+\end{document}
+

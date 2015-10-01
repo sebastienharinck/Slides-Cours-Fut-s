@@ -1,0 +1,122 @@
+\documentclass[t]{beamer}
+\usepackage{etex}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\usepackage{pst-eucl}
+\usepackage{etoolbox}
+\usetheme{Warsaw}
+
+\definecolor{red}{HTML}{DD0000}
+\definecolor{green}{RGB}{51,110,23}
+
+\title{1ère S : Dérivation - Cours 2 : Utiliser les dérivées}
+\author{www.cours-futes.com}
+\institute{Sébastien Harinck}
+\date{}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}[label=pagebanale]
+\frametitle{Fonction Dérivée :}
+\pause
+\begin{enumerate}[a)]
+\item<+-> Le tableau de signe de la dérivée permet de déduire le tableau de variations de la fonction
+\item<+-> La dérivée sert aussi à déterminer l'extremum local d'une fonction
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[label=pagebanale]
+\frametitle{a) Le tableau de signe de la dérivée permet de déduire le tableau de variations de la fonction : }
+\pause
+\begin{block}{Définition :}
+\pause
+Soit f une fonction définie et dérivable sur un intervalle I. \pause
+\begin{enumerate}[]
+	\item<+-> Si f' est \textcolor{red}{positive} sur I, \pause alors f est \textcolor{red}{croissante} sur I. \pause
+	\item<+-> Si f' est \textcolor{red}{négative} sur I, \pause alors f est \textcolor{red}{décroissante} sur I. \pause
+	\item<+-> Si f' est \textcolor{red}{nulle} sur I, \pause alors f est \textcolor{red}{constante} sur I.
+\end{enumerate}
+\pause
+\end{block}
+\end{frame}
+
+\begin{frame}[label=pagebanale]
+\frametitle{b) Exemple}
+\begin{block}{Exemples : }
+Dresser le tableau de variations de la fonction de : $f(x) = 4^2 - 6x + 3$. 
+\end{block}
+\begin{block}{Solutions }
+f est une fonction polynôme, elle est donc dérivable sur $\mathbb{R}$. $f'(x) = 2 \times 4 x - 6 + 0 = 8x - 6$. \\
+\pause
+Il suffit de trouver le signe de f' pour en déduire les variations de f. On cherche lorsque $ 8x - 6 sup 0$ par exemple.
+$ 8x - 6 sup 0 consequence 8x  sup 6 consequence x sup \cfrac{8}{6} consequence \cfrac{4}{3}$ Donc f'(x) sera positive lorsque x sup à 4/3. On en déduit donc que f sera croissante lorsque x sup à 4/3. 
+\end{block}
+\end{frame}
+
+\begin{frame}[label=pagebanale]
+\frametitle{c) Les 5 règles de dérivation}
+\pause
+Soit u et v deux fonctions.
+\begin{tabular}{|c|c|c|}
+	\hline
+		\textbf{forme de f(x)} & \textbf{f'(x)} \\
+	\hline
+		$u+v$ & $u' + v'$ \\
+	\hline
+		$\lambda u$ & $\lambda u'$ \\
+	\hline
+		$uv $ & $u'v +v'u$ \\
+	\hline 
+		$\frac{u}{v}$ & $\frac{u'v-v'u}{v^2}$ \\
+	\hline
+		$u^n$ & $n \times u' u^{(n-1)}$ \\
+	\hline
+\end{tabular}
+\begin{block}{Exemple :}
+	\begin{enumerate}
+		\item<+-> $f(x) = x^2 + x$. \pause Comme $(x^2)' = 2x$ \pause et $(x)' = 1$. \pause On en déduit que $f'(x) = 2x + 1$. \pause
+		\item<+-> $g(x) = 42 \sqrt{x}$. \pause Dans notre cas on remarque que g(x) est de la forme $\lambda u$ \pause où $\lambda = 42$ \pause et $u = \sqrt{x}$. \pause Comme $u' = (\sqrt{x})' = \pause \frac{1}{2\sqrt{x}}$, \pause on en déduit que $g'(x) = \pause 42 \pause \times \pause \frac{1}{2\sqrt{x}} \pause = \frac{42}{2\sqrt{x}} \pause $
+	\end{enumerate}
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple avec (uv)' = u'v + v'u}
+\pause
+\begin{block}{Dériver h(x)}
+	$h(x) = x^3 \sqrt{x}$. \pause Il s'agit d'une fonction de la forme uv \pause où u et v sont deux fonctions \pause telles que $u(x) = x^3$ \pause et $v(x) = \sqrt{x}$. \pause Nous allons utiliser la formule (uv)' = u'v + v'u. \pause Calculons :
+	\begin{enumerate}{}
+		\item<+-> \(u'(x)= 3 \times x^{(3-1)} = 3x^2 \)
+		\item<+-> \(v'(x) = \frac{1}{2 \sqrt{x}} \) 
+	\end{enumerate}
+	\pause
+	A partir d'ici, il suffit de remplacer : \pause
+	\begin{enumerate}[]
+	\item<+-> \(g'(x) = u'v + v'u = \pause 3x^2 \times \sqrt{x} + \frac{1}{2 \sqrt{x}} \times x^3\) \pause
+	\item<+-> \(g'(x) = 3x^2 \sqrt{x} + \frac{x^3}{2 \sqrt{x}} \)
+	\end{enumerate}	
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple avec $\frac{u}{v}$ }
+\pause
+\begin{block}{Dériver i(x)}
+	$i(x) = \frac{x^2 + x}{3x}$. \pause Il s'agit d'une fonction de la forme $\frac{u}{v}$ \pause où u et v sont deux fonctions \pause telles que $u(x) = x^2 + x$ \pause et $v(x) = 3x$. \pause Nous allons utiliser la formule $\left( \frac{u}{v} \right)' = \frac{u'v - v'u}{v^2}$. \pause Calculons :
+	\begin{enumerate}{}
+		\item<+-> \(u'(x)= 2x + 1 \)
+		\item<+-> \(v'(x) = 3 \) 
+	\end{enumerate}
+	\pause
+	A partir d'ici, il suffit de remplacer : \pause
+	\begin{enumerate}[]
+	\item<+-> \(i'(x) = \frac{u'v - v'u}{v^2} = \frac{(2x+1) \times 3x - 3 \times (x^2+1}{(3x)^2}\) \pause
+	\item<+-> \(i'(x) = 3x^2 \sqrt{x} + \frac{x^3}{2 \sqrt{x}} \)
+	\end{enumerate}	
+\end{block}
+\end{frame}
+\end{document}

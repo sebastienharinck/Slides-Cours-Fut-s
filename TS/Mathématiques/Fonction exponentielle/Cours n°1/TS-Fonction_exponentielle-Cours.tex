@@ -1,0 +1,106 @@
+\documentclass[t]{beamer}
+%\usepackage[orientation=paysage,width=200,height=120,scale=2]{beamerposter}
+\usepackage{etex}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\usepackage{pst-eucl}
+
+\beamertemplatenavigationsymbolsempty
+% \usetheme{Warsaw}
+
+\definecolor{red}{HTML}{DD0000}
+\definecolor{green}{RGB}{51,110,23}
+\setbeamercolor{block title example}{fg=green}
+
+\title{TS : Fonction Exponentielle : Cours}
+\author{Sébastien Harinck}
+\institute{www.cours-futes.com}
+\date{}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}[label=pagebanale]
+\frametitle{Courbe de la fonction exponentielle}
+\pause
+Les physiciens ont eu besoin de définir une fonction, afin de pouvoir faire des calculs.
+\pause
+GRAPHIQUE
+\pause
+D'après ce graphique, nous pouvons apprendre et retenir plusieurs informations capitales pour la suite.
+\begin{enumerate}
+\item<+-> la fonction f(x) est définie sur $\mathbb{R} $
+\item<+-> f(0) = 1 
+\item<+-> \( \lim\limits_{x \rightarrow +\infty} f(x) = +\infty \)
+\item<+-> \( \lim\limits_{x \rightarrow -\infty} f(x) = 0 \)
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{Propriétés de la fonction exponentielle f(x) = exp(x)}
+\pause
+Il existe une unique fonction f dérivable sur $\mathbb{R}$ telle que f' = f et f(0) = 1.
+\pause
+\( exp(x)' = exp(x)\)
+\pause
+Pour tout réel x, $ exp(-x) = \dfrac{1}{exp(x)}$
+\pause
+Pour tout réel x, $ exp(x) \neq 0 $
+\pause
+Pour tout réel x, $ exp(x) > 0 $
+\pause
+Soient a et b $\in \mathbb{R}$,$ exp(a+b) = exp(a) \times exp(b)$
+\end{frame}
+
+\begin{frame}
+\frametitle{Le nombre e}
+On appelle e l'image de 1 par la fonction exp : e = exp(1).
+\pause
+\( e \approx 2.718\)
+\end{frame}
+
+\begin{frame}
+\frametitle{Quelques relations :}
+\pause
+Pour tout réel x, on note $exp(x) = e^x$
+\pause
+\begin{enumerate}
+\item<+-> \( e^0 = 1\)
+\item<+-> \( e^1 = 1\) 
+\item<+-> \( e^{a+b} = e^a \times e^b\) 
+\item<+-> \( e^{na} = (e^a)^n\)
+\item<+-> \( e^{-b} = \dfrac{1}{e^b}\)  
+\item<+-> \( e^{a-b} = \dfrac{e^a}{e^b}\)  
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{Inception}
+\pause
+Par définition, la fonction exp est dérivable sur $ \mathbb{R}$ et a pour dérivée elle-même; comme elle est strictement positive, exp est strictement croissante sur $ \mathbb{R}$
+\end{frame}
+
+\begin{frame}
+\frametitle{D'autres limites}
+On dit que l'exponentielle l'emporte !
+Croissance comparée des fonctions $x \rightarrow x$ et $x \rightarrow e^x$ :
+\[ \lim\limits_{x \rightarrow + \infty} \dfrac{e^x}{x} = + \infty \]
+et
+\[ \lim\limits_{x \rightarrow - \infty} xe^x = 0\]
+Une autre propriété qui découle de la définition du taux d'accroissement :
+\[ \lim\limits_{x \rightarrow 0} \dfrac{e^x - 1}{x} = exp'(0) = 1\]
+\end{frame}
+
+\begin{frame}
+\frametitle{Dérivée une fonction du type : $ e^{u(x)} $}
+\pause
+Soit une fonction u définie et dérivable sur un intervalle I. \\
+La fonction f définie sur I par $f(x) = e^{u(x)}$ est dérivable sur I et a pour dérivée : 
+\[f(x) = u'(x) \times e^{u(x)} \]
+\end{frame}
+
+\end{document}
+

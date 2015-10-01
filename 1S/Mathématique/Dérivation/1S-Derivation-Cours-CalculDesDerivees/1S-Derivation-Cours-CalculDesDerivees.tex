@@ -1,0 +1,154 @@
+\documentclass[t]{beamer}
+\usepackage{etex}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\usepackage{pst-eucl}
+\usepackage{etoolbox}
+
+\definecolor{red}{HTML}{DD0000}
+\definecolor{green}{RGB}{51,110,23}
+
+\title{1ère S : Dérivation - Cours 2 : Calculer la dérivée d'une fonction}
+\author{www.cours-futes.com}
+\institute{Sébastien Harinck}
+\date{}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}[label=pagebanale]
+\frametitle{Fonction Dérivée :}
+\pause
+\begin{enumerate}[a)]
+\item<+-> Définition de la dérivation d'une fonction
+\item<+-> Les 3 fonctions usuelles
+\item<+-> Les 5 règles de dérivation
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[label=pagebanale]
+\frametitle{a) Dériver une fonction : }
+\pause
+\begin{block}{Définition :}
+\pause
+Soit f une fonction définie sur un intervalle I. \pause Si f est dérivable $\forall x \in I$, \pause on dit que f est dérivable sur I. \pause La fonction dérivée de f est la fonction f' qui à tout x de I \pause associe le nombre de f'(x).
+\pause
+\end{block}
+\end{frame}
+
+\begin{frame}[label=pagebanale]
+\frametitle{b) Les 3 fonctions usuelles}
+\pause
+\begin{tabular}{|c|c|c|}
+	\hline
+		\textbf{Intervalle de dérivation} & \textbf{f(x)} & \textbf{f'(x)} \\
+	\hline
+		$\mathbb{R}$ & k(constante réelle) & 0 \\
+	\hline
+		$\mathbb{R}$ & $x^{\textcolor{red}{n}}$ & $\textcolor{red}{n} \times x^{(\textcolor{red}{n}-1)} $ \\
+	\hline
+		$\left] 0;+ \infty \right[ $ & $\sqrt{x}$ & $\frac{1}{2 \sqrt{x}}$ \\
+	\hline 
+\end{tabular}
+\pause
+\begin{block}{Exemples : }
+\pause
+\begin{enumerate}[a)]
+\item $ f(x)=4 \Rightarrow \pause f'(x)= 0 $
+\pause
+\item $ f(x)=493.9 \Rightarrow \pause f'(x)= 0 $
+\pause
+\item $ f(x)=x = \pause x^1 \Rightarrow \pause f'(x)= \textcolor{green}{1} \pause \times \pause x^{(\pause \textcolor{green}{1} \pause-1)} = \pause 1 \times x^0 = \pause 1 \times 1 = 1 $
+\pause
+\item $ f(x)=x^2 \Rightarrow \pause f'(x)= \pause \textcolor{green}{2} \pause \times \pause x^{(\textcolor{green}{2} \pause -1)} = \pause 2 \times x^1 = \pause 2x $
+\pause
+\item $ f(x)=x^7 \Rightarrow \pause f'(x)= \pause \textcolor{green}{7} \pause \times \pause x^{(\textcolor{green}{7}-1)} = \pause 7 \times x^6 = \pause 7x^6 $
+\pause
+\item $ f(x)=\sqrt{x} \Rightarrow \pause f'(x)= \frac{1}{2 \sqrt{x}}  $
+\pause
+\end{enumerate}
+\end{block}
+\end{frame}
+
+\begin{frame}[label=pagebanale]
+\frametitle{c) Les 5 règles de dérivation}
+\pause
+Soit u et v deux fonctions.
+\begin{tabular}{|c|c|c|}
+	\hline
+		\textbf{forme de f(x)} & \textbf{f'(x)} \\
+	\hline
+		$u+v$ & $u' + v'$ \\
+	\hline
+		$\lambda u$ & $\lambda u'$ \\
+	\hline
+		$uv $ & $u'v +v'u$ \\
+	\hline 
+		$\dfrac{u}{v}$ & $\dfrac{u'v-v'u}{v^2}$ \\
+	\hline
+		$u^n$ & $n \times u' u^{(n-1)}$ \\
+	\hline
+\end{tabular} 
+\pause
+\begin{block}{Exemples :}
+	\begin{enumerate}
+		\pause
+		\item $f(x) = x^2 + x$. \pause Dans notre cas, on remarque que f(x) est de la forme u + v. \pause Comme $(x^2)' = 2x$ \pause et $(x)' = 1$. \pause On en déduit que $\textcolor{green}{f'(x) = 2x + 1}$. \pause
+		\item $g(x) = 42 \sqrt{x}$. \pause Dans notre cas, on remarque que g(x) est de la forme $\lambda u$ \pause où $\lambda = 42$ \pause et $u = \sqrt{x}$. \pause Comme $u' = (\sqrt{x})' = \pause \frac{1}{2\sqrt{x}}$, \pause on en déduit que $g'(x) = \pause 42 \pause \times \pause \dfrac{1}{2\sqrt{x}} \pause = \dfrac{42}{2\sqrt{x}} = \textcolor{green}{\dfrac{24}{\sqrt{x}}} \pause $
+	\end{enumerate}
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple avec (uv)' = u'v + v'u}
+\pause
+\begin{block}{Dériver h(x)}
+	$h(x) = x^3 \sqrt{x}$. \pause Il s'agit d'une fonction de la forme uv \pause où u et v sont deux fonctions \pause telles que $u(x) = \textcolor{green}{x^3}$ \pause et $v(x) = \textcolor{green}{\sqrt{x}}$. \pause Nous allons utiliser la formule (uv)' = u'v + v'u. \pause Calculons :
+	\begin{enumerate}{}
+		\item<+-> \(u'(x)= 3 \times x^{(3-1)} = \textcolor{green}{3x^2} \)
+		\item<+-> \(v'(x) = \textcolor{green}{\frac{1}{2 \sqrt{x}}} \) 
+	\end{enumerate}
+	\pause
+	A partir d'ici, il suffit de remplacer : \pause
+	\begin{enumerate}[]
+	\pause
+	\item\(g'(x) = u'v + v'u = \pause 3x^2 \pause \times \pause \sqrt{x} \pause + \pause \frac{1}{2 \sqrt{x}} \pause \times \pause x^3\)
+	\pause
+	\item \(g'(x) = 3x^2 \sqrt{x} + \frac{x^3}{2 \sqrt{x}} \)
+	\pause
+	\item\(g'(x) = \dfrac{3x^2 \sqrt{x} \pause \times \textcolor{red}{2\sqrt{x}}\pause}{\textcolor{red}{2\sqrt{x}}} \pause + \frac{x^3}{2 \sqrt{x}} \)
+	\pause
+	\item \(g'(x) = \dfrac{6x^3 + x^3}{2\sqrt{x}} = \pause \textcolor{green}{\dfrac{7x^3}{2\sqrt{x}}} \)
+	\end{enumerate}	
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple avec $\frac{u}{v}$ }
+\pause
+\begin{block}{Dériver i(x)}
+	$i(x) = \frac{x^2 + x}{3x}$. \pause Il s'agit d'une fonction de la forme $\frac{u}{v}$ \pause où u et v sont deux fonctions \pause telles que $u(x) = \textcolor{green}{x^2 + x}$ \pause et $v(x) = \textcolor{green}{3x}$. \pause Nous allons utiliser la formule $\textcolor{red}{\left( \frac{u}{v} \right)' = \frac{u'v - v'u}{v^2}}$. \pause Calculons :
+	\pause
+	\begin{enumerate}{}
+		\item<+-> \(u'(x)= 2x + 1 \)
+		\item<+-> \(v'(x) = 3 \) 
+	\end{enumerate}
+	\pause
+	A partir d'ici, il suffit de remplacer : \pause
+	\begin{enumerate}[]
+	\item \(i'(x) = \pause \frac{u'v - v'u}{v^2} = \pause \frac{(2x+1) \pause \times \pause 3x \pause - \pause 3 \pause \times \pause (x^2+x) \pause}{(3x)^2}\)
+	\pause
+	\item \(i'(x) = \pause \frac{6x^2 \pause + 3x \pause - \pause 3x^2 \pause - 3x \pause}{(3x)^2} \)
+	\pause
+	\item \(i'(x) = \pause \frac{3x^2}{(3x)^2} \)
+	\pause
+	\item \(i'(x) = \pause \frac{3x^2}{9x^2} \)
+	\pause
+	\item \(i'(x) = \pause \textcolor{green}{\frac{1}{3}} \)
+	\end{enumerate}	
+\end{block}
+\end{frame}
+\end{document}

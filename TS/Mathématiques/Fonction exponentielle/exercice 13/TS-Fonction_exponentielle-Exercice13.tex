@@ -1,0 +1,123 @@
+\documentclass[t]{beamer}
+%\usepackage[orientation=paysage,width=200,height=120,scale=2]{beamerposter}
+\usepackage{etex}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\usepackage{pst-eucl}
+
+\beamertemplatenavigationsymbolsempty
+% \usetheme{Warsaw}
+
+\definecolor{red}{HTML}{DD0000}
+\definecolor{green}{RGB}{51,110,23}
+\setbeamercolor{block title example}{fg=green}
+
+\title{TS : Fonction Exponentielle : Exercice 13}
+\author{Sébastien Harinck}
+\institute{www.cours-futes.com}
+\date{}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Résoudre l'exercice suivant}
+Soit f la fonction définie sur $ ]0; + \infty [$ par $f(x)= e^{\dfrac{1}{x}} $ 
+\pause
+et C sa courbe représentative.
+\begin{enumerate}
+\item<+-> Déterminer les limites de f en 0 et en $ + \infty $.
+\item<+-> Calculer la dérivée de f et dresser le tableau de variations de f.
+\end{enumerate} 
+\end{frame}
+
+\begin{frame}
+\frametitle{Les limites de $f(x)= e^{\dfrac{1}{x}} $ }
+La fonction f est une fonction de la forme $e^u$ où
+\( u(x) = \dfrac{1}{x} \)
+\pause
+\\
+
+On utilise le théorème sur la limite d'un fonction composée :
+\\
+\pause
+Si
+\( \lim\limits_{x \rightarrow a} f(x) = b \)
+et 
+\( \lim\limits_{x \rightarrow b} g(x) = c \)
+alors 
+\( \lim\limits_{x \rightarrow a} g(f(x)) = c \)
+
+\pause
+Nous allons appliquer ce théorème :
+\pause
+
+\( \lim\limits_{x \rightarrow 0+} \dfrac{1}{x} = \textcolor{red}{+ \infty} \)
+et
+\( \lim\limits_{x \rightarrow \textcolor{red}{+\infty}} e^x = + \infty \)
+alors
+\( \lim\limits_{x \rightarrow 0+} f(x) = + \infty \)
+\end{frame}
+
+\begin{frame}
+\frametitle{Les limites de $f(x)= e^{1/x} $ }
+\pause
+Vous avez sûrement dû comprendre la logique.
+\pause
+Essayez d'appliquer le théorème mais en $ + \infty $.
+\pause
+
+\( \lim\limits_{x \rightarrow + \infty} \dfrac{1}{x} = \textcolor{red}{0} \)
+et
+\pause
+\( \lim\limits_{x \rightarrow \textcolor{red}{0}} e^x = 1 \)
+donc
+\pause
+\( \lim\limits_{x \rightarrow + \infty} f(x) = 1\)
+\end{frame}
+
+\begin{frame}
+\frametitle{Calculer la dérivée de f et dresser le tableau de variations de f.}
+\pause
+Comme annoncé précédemment, f est de la forme : $ e^u $.
+\pause
+Un de nos théorèmes est que la dérivée 
+\( (e^u)' = u'e^u \)
+\\
+\pause
+
+\( u' = \pause \left( \dfrac{1}{x} \right)' \pause = \dfrac{-1}{x^2} \)
+\pause
+\\
+On en déduit que 
+\( f'(x) = \dfrac{-1}{x^2} e^{\dfrac{1}{x}}\)
+\\
+
+\pause
+Comme $x^2$ est toujours positive sur $ ] 0 ; + \infty [ $.
+\pause
+Donc 
+\( \dfrac{-1}{x^2} \)
+est toujours négative sur $ ] 0 ; + \infty [ $.
+\\
+\pause
+et comme 
+\( e^{\dfrac{1}{x}} \)
+sera toujours positive sur $ ] 0 ; + \infty [ $.
+\\
+\pause
+car l'exponentielle est toujours positive sur $ \mathbb{R} $ 
+\\
+\pause
+On déduit que la fonction f'(x) sera toujours négative sur $ ] 0 ; + \infty [ $ et que f(x) sera toujours décroissante sur ce même intervalle. 
+ 
+
+
+\end{frame}
+
+
+\end{document}
+

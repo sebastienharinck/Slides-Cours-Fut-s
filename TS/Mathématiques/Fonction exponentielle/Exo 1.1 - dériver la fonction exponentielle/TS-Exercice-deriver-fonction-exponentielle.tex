@@ -1,0 +1,95 @@
+\documentclass[t]{beamer}
+%\usepackage[orientation=paysage,width=200,height=120,scale=2]{beamerposter}
+\usepackage{etex}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\usepackage{pst-eucl}
+
+\beamertemplatenavigationsymbolsempty
+% \usetheme{Warsaw}
+
+\definecolor{red}{HTML}{DD0000}
+\definecolor{green}{RGB}{51,110,23}
+\setbeamercolor{block title example}{fg=green}
+
+\title{TS : Fonction Exponentielle : Exercice 3}
+\author{Sébastien Harinck}
+\institute{www.cours-futes.com}
+\date{}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Dériver les fonctions suivantes :}
+\begin{enumerate}
+\item<+-> f définie sur $\mathbb{R} $ par $f(x) = xe^x$
+\item<+-> g définie sur $\mathbb{R} - \lbrace \dfrac{1}{2}\rbrace $ par $g(x) = \dfrac{e^x+1}{2x+1}$
+\item<+-> h définie sur $\mathbb{R} $ par $h(x) = (3x^2-2x+1)e^{x}$
+\item<+-> i définie sur $\mathbb{R} $ par $i(x) = (x+e^x)^4$
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{f définie sur $\mathbb{R} $ par $f(x) = xe^x$}
+\pause
+Il s'agit d'une fonction de la forme $u \times v$. \\
+\pause
+\( (uv)' = u'v + v'u \)
+\pause  
+\begin{enumerate}
+\item<+-> \( u = x \)
+\item<+-> \( u'= 1 \)
+\item<+-> \( v = e^x\)
+\item<+-> \( v'= e^x \)
+\end{enumerate}
+\pause
+\( f'(x) = u'v + v'u = 1 \times e^x + e^x \times x = e^x + e^xx = e^x (1+x)  \)
+\end{frame}
+
+\begin{frame}
+\frametitle{g définie sur $\mathbb{R} - \lbrace \dfrac{1}{2}\rbrace $ par $g(x) = \dfrac{e^x+1}{2x+1}$}
+\pause
+Il s'agit d'une fonction de la forme $ \dfrac{u}{v}$ \\
+\pause
+\( (\dfrac{u}{v})' = \dfrac{u'v-v'u}{v^2} \)
+\pause
+\begin{enumerate}
+\item<+-> \(u =  e^x+1 \)
+\item<+-> \(u'= e^x \)
+\item<+-> \(v = 2x+1 \)
+\item<+-> \(v' = 2 \)
+\end{enumerate}
+\pause
+\( g'(x)=  \dfrac{u'v-v'u}{v^2} = \dfrac{e^x(2x+1) - 2(e^x+1)}{(2x+1)^2}\) \\
+\( g'(x) = \dfrac{2xe^x+e^x - 2e^x-2}{(2x+1)^2}\) \\
+\( g'(x) = \dfrac{2xe^x-e^x-2}{(2x+1)^2}\)
+\end{frame}
+
+\begin{frame}
+\frametitle{h définie sur $\mathbb{R} $ par $h(x) = (3x^2-2x+1)e^x$}
+\pause
+Il s'agit d'une fonction de la forme $ u \times v $ 
+\pause
+\( (uv)' = u'v + v'u \)
+\pause
+\begin{enumerate}
+\item<+-> \(u =  3x^2-2x+1 \)
+\item<+-> \(u'= 6x - 2 \)
+\item<+-> \(v = e^x \)
+\item<+-> \(v' = e^x \)
+\end{enumerate}
+\( h'(x) = u'v + v'u = (6x - 2)e^x + e^x(3x^2-2x+1)\) \\
+\pause
+\( h'(x) = 6xe^x -2e^x + 3x^2e^x -2xe^x+e^x \) \\
+\pause
+\( h'(x) = 3x^2e^x + 4xe^x -e^x\)
+\end{frame}
+
+
+
+\end{document}
+

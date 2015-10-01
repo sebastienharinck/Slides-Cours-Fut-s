@@ -1,0 +1,98 @@
+\documentclass[t]{beamer}
+%\usepackage[orientation=paysage,width=200,height=120,scale=2]{beamerposter}
+\usepackage{etex}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\usepackage{pst-eucl}
+
+\beamertemplatenavigationsymbolsempty
+% \usetheme{Warsaw}
+
+\definecolor{red}{HTML}{DD0000}
+\definecolor{green}{RGB}{51,110,23}
+\setbeamercolor{block title example}{fg=green}
+
+\title{TS : Fonction Exponentielle : Exercice 1}
+\author{Sébastien Harinck}
+\institute{www.cours-futes.com}
+\date{}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Lever des indéterminations de limites en $ + \infty $ et $ - \infty $}
+\pause
+Soit f la fonction définie sur $\mathbb{R}$ par $f(x) = e^x(5 - x)$.
+\pause
+Calculer la limite de f en $ + \infty $
+\pause
+Calculer la limite de f en $ - \infty $
+\pause
+\end{frame}
+
+\begin{frame}
+\frametitle{Résolution :}
+\pause
+La fonction est le produit des fonctions $x \rightarrow e^x$ et $x \rightarrow 5 - x$
+\pause
+\( \lim\limits_{x \rightarrow + \infty} e^x = + \infty\)
+et
+\( \lim\limits_{x \rightarrow + \infty} (5 -x) = - \infty\)
+; par produit,
+\( \lim\limits_{x \rightarrow + \infty} f(x) = - \infty	\).
+
+Maintenant, calculons la limite en $ - \infty $
+\pause
+\( \lim\limits_{x \rightarrow - \infty} e^x = 0\)
+et
+\( \lim\limits_{x \rightarrow - \infty} 5 - x = + \infty \)
+\pause
+Forme Indéterminée $ \rightarrow $On ne peut pas conclure.
+\pause
+On développe : $ f(x) = 5e^x - xe^x$.
+\pause
+On a donc 
+\( \lim\limits_{x \rightarrow - \infty} 5e^x = 0\)
+et on utilise le résultat
+\( \lim\limits_{x \rightarrow - \infty} xe^x = 0\)
+\pause
+Par somme, on obtient :
+\pause
+\[ \lim\limits_{x \rightarrow - \infty} f(x) = 0.\]
+\end{frame}
+
+\begin{frame}
+\frametitle{Question 2 :}
+\pause
+Résoudre dans $ \mathbb{R}$ l'équation $e^{2x+1} = e^{-0,5x+4}$.
+\pause
+Résoudre dans $ \mathbb{R}$ l'inéquation $e^{-x+3} \leq e^{2x+9}$.
+\pause
+\end{frame}
+
+\begin{frame}
+\frametitle{Solution commentée}
+\pause
+Pour résoudre des équations ou des inéquations du type $ e^{u(x)} = e^{v(x)}$ ou $ e^{u(x)} \leq e^{v(x)} $,
+on utilise la propriété : quels que soient les réels a et b, $e^a$ et $e^b$ équivaut à a = b ; $e^a \leq e^b$ équivaut à $a \leq b$.
+\pause
+Résoudre $e^{2x+1} = e^{-0,5x+4}$ équivaut à résoudre : $2x+1 = -0.5x+4$
+\pause
+\( 2.5x = 3\)
+\pause
+\( x = \dfrac{3}{2,5} = 1,2\)
+\pause
+Résoudre $e^{-x+3} \leq e^{2x+9}$ équivaut à résoudre : $-x+3 \leq 2x+9$
+\pause
+\( -3x \leq 6\)
+\pause
+\( x \geq -2\)
+\pause
+\end{frame}
+
+\end{document}
+

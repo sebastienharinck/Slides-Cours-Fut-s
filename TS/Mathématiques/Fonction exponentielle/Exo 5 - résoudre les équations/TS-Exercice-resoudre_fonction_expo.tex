@@ -1,0 +1,81 @@
+\documentclass[t]{beamer}
+%\usepackage[orientation=paysage,width=200,height=120,scale=2]{beamerposter}
+\usepackage{etex}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\usepackage{pst-eucl}
+
+\beamertemplatenavigationsymbolsempty
+% \usetheme{Warsaw}
+
+\definecolor{red}{HTML}{DD0000}
+\definecolor{green}{RGB}{51,110,23}
+\setbeamercolor{block title example}{fg=green}
+
+\title{TS : Fonction Exponentielle : Exercice 2}
+\author{Sébastien Harinck}
+\institute{www.cours-futes.com}
+\date{}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Résoudre dans $ \mathbb{R} $ les équations suivantes :}
+\pause
+\begin{enumerate}[1)]
+\item<+-> \( e^{x} -1 = 0\)
+\item<+-> \( e^{x} +1 = 0\)
+\item<+-> \( e^{2x} = e^{x+4}\)
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{1) $e^{x} -1 = 0$}
+\begin{enumerate}[]
+\item<+-> \( e^{x} -1 = 0 \)
+\item<+-> \( e^{x} = 1 \)
+\item<+-> \( x = 0 \)
+\end{enumerate}
+\pause
+Justification :
+\pause
+\begin{enumerate}
+\item Vous devez savoir que $e^0 = 1$. \pause Il s'agit d'une propriété de la fonction exponentielle. 
+\pause
+\item Il n'y a pas d'autres solutions dans $ \mathbb{R} $. \pause Comme la fonction exponentielle est strictement croissante sur $ \mathbb{R} $, \pause on en déduit que l'équation $e^x = m$ admet une unique solution dans $ \mathbb{R} $.
+\end{enumerate}
+\pause
+Explication Graphique :
+...
+\pause
+\end{frame}
+
+\begin{frame}
+\frametitle{2) $e^{x} +1 = 0$}
+\begin{enumerate}[]
+\item<+-> \( e^{x} +1 = 0 \)
+\item<+-> \( e^{x} = -1 \)
+\end{enumerate}
+Comme la fonction exponentielle est toujours positive sur $ \mathbb{R} $, il n'existe aucune solution pour résoudre cette équation dans $\mathbb{R}$.
+\end{frame}
+
+\begin{frame}
+\frametitle{3) $e^{2x} = e^{x+4}$}
+\pause
+Une des propriétés de l'exponentielle est que :
+\( e^a = e^b \Leftrightarrow a = b\)
+\pause
+donc :
+\pause
+\begin{enumerate}[$\Leftrightarrow$]
+\item<+-> \( e^{2x} = e^{x+4} \)
+\item<+-> \(2x = x+4 \)
+\item<+-> \( x = 4 \)
+\end{enumerate}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,95 @@
+\documentclass[t]{beamer}
+%\usepackage[orientation=paysage,width=200,height=120,scale=2]{beamerposter}
+\usepackage{etex}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\usepackage{pst-eucl}
+
+\beamertemplatenavigationsymbolsempty
+% \usetheme{Warsaw}
+
+\definecolor{red}{HTML}{DD0000}
+\definecolor{green}{RGB}{51,110,23}
+\setbeamercolor{block title example}{fg=green}
+
+\title{TS : Fonction Exponentielle : Exercice 15}
+\author{Sébastien Harinck}
+\institute{www.cours-futes.com}
+\date{}
+
+
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\lim\limits_{ x \rightarrow 0 }
+
+\begin{frame}
+\frametitle{Résoudre l'exercice suivant :}
+Soit f la fonction définie sur $ \mathbb{R} $ par :
+\pause
+\[ f(x) = e^x + 2e^{-x} + x \]
+\begin{enumerate}
+\item<+-> Etudier les variations de f sur $ \mathbb{R} $
+\item<+-> Déterminer les limites de f en $ - \infty $ et en $ + \infty $
+\item<+-> Dresser le tableau de variations de f
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{Etudier les variations de f sur $ \mathbb{R} $}
+\pause
+\( f(x) = e^x + 2e^{-x} + x \)
+\\
+Pour étudier les variations d'une fonction, il est conseillé de calculer sa dérivée et d'étudier son signe.
+\\
+\pause
+\( f'(x) =  e^x \textcolor{red}{-} 2e^{-x} + 1 = e^x + 2 \dfrac{1}{e^x} + 1 \)
+\\
+\pause
+Bien que la fonction exponentielle soit toujours positive sur $ \mathbb{R} $, on ne peut pas déterminer tout de suite le signe de la fonction f'(x).
+\\
+\pause
+Dans cet exercice, nous allons utiliser une technique difficile (mais que vous devez connaître :) )
+\\
+\pause
+Le but est d'exprimer la fonction avec X où $ X =  e ^x $.
+\\
+\pause
+Comme ceci par exemple : 
+\( 3X^2 - \dfrac{7}{3}X - 2 \)
+\\
+\pause
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Etudier les variations de f sur $ \mathbb{R} $}
+\pause
+On va commencer par mettre la fonction sous un même dénomitateur.
+\\
+\pause
+\( f'(x) = e^x + 2 \dfrac{1}{e^x} + 1  = \pause \dfrac{e^{2x} - 2 + e^x}{e^x} = \dfrac{e^{2x} + e^x - 2}{e^x} \)
+\\
+\pause
+Si on pose $ X = e^x $, \pause on obtient :
+\pause
+\( f'(x) = \dfrac{X^2 + X - 2}{X} \)
+\\
+\pause
+\textcolor{red}{Pourquoi $ e^{2x} = X^2 $ ?}
+\pause
+Parce que $ e^{2x} = (e^x)^2 $
+\\
+\pause
+Si vous ne pensez qu'en terme de X, vous êtes capable de déterminer le signe de $\dfrac{X^2 + X - 2}{X}$ sur ...
+\\
+\pause
+\textcolor{green}{Remarque : Lorsque que l'on parle du signe ou de la variation d'une fonction c'est toujours sur un INTERVALLE}
+
+\end{frame}
+
+\end{document}

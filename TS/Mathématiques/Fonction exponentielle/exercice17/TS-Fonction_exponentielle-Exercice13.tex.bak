@@ -1,0 +1,137 @@
+\documentclass[t]{beamer}
+%\usepackage[pass,letterpaper]{geometry}
+%\usepackage[orientation=paysage,width=200,height=120,scale=2]{beamerposter}
+\usepackage{etex}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{pstricks-add}
+\usepackage{pst-eucl}
+
+\beamertemplatenavigationsymbolsempty
+% \usetheme{Warsaw}
+
+\definecolor{red}{HTML}{DD0000}
+\definecolor{green}{RGB}{51,110,23}
+\setbeamercolor{block title example}{fg=green}
+
+\title{TS : Fonction Exponentielle : Exercice 13}
+\author{Sébastien Harinck}
+\institute{www.cours-futes.com}
+\date{}
+
+
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Exercice type bac}
+Soit f la fonction définie sur $\mathbb{R}$ par $f(x)= x + 1 - \dfrac{4e^x}{e^x+1}$
+et C sa courbe représentatitve.
+\begin{enumerate}
+\item<+-> Déterminer la limite de f en $ - \infty $
+\item<+-> Démontrer que la droite \textit{D} d'équation $y=x+1$ est asymptote à la courbe C en $ -\infty $
+\item<+-> Etudier la position de C par rapport à D.
+\item<+-> Déterminer la limite de f en $ + \infty $
+\item<+-> Démontrer que la droite D' d'équation y = x - 3 est asymptote à la courbe C en $ en + \infty $
+\item<+-> Etudier la position de C par rapport à D'
+\item<+-> Calculer f'(x) et montrer que, pour tout réel x, $f'(x)  = \left( \dfrac{e^x-1}{e^x+1} \right)^2 $
+\item<+-> Etudier les variations de f et dresser le tableau de variation de f.
+\item<+-> Tracer la courbe et ses asymptotes 
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{1) Déterminer la limite de f en $ - \infty $}
+\( f(x)= x + 1 - \dfrac{4e^x}{e^x+1} \)
+\begin{enumerate}[]
+\item \( \lim\limits_{ x \rightarrow -\infty } x + 1 = - \infty \)
+\item \( \lim\limits_{ x \rightarrow - \infty } 4e^x = \pause 0 \)
+\item \( \lim\limits_{ x \rightarrow - \infty } e^x + 1 = \pause 1 \)
+\item D'où \( \lim\limits_{ x \rightarrow -\infty } \dfrac{4e^x}{e^x + 1} = \pause 0 \)
+\item Par somme, \pause \( \lim\limits_{ x \rightarrow -\infty } f(x) = -\infty \)
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{Démontrer que la droite \textit{D} d'équation $y=x+1$ est asymptote à la courbe C en $ -\infty $}
+\( f(x)= x + 1 - \dfrac{4e^x}{e^x+1} \)
+\\
+Théorème :
+\\
+Si, pour tout x de \pause 
+$]- \infty ; c]$
+, f peut s'écrire sous la forme
+\pause
+$f(x) = ax+b + g(x)$,
+\pause
+avec a non nul et 
+\pause
+\( \lim\limits_{ x \rightarrow - \infty } g(x) = 0 \),
+\pause
+alors la droite d'équation $ y = ax+b $ est asymptote oblique à Cf en $ - \infty $
+\\
+Résolution :
+\\
+La fonction f est écrite sous la forme $ f(x) = x +1 - \dfrac{4e^x}{e^x+1}$ avec 
+\( \lim\limits_{ x \rightarrow - \infty } \dfrac{4e^x}{e^x+1} = 0 \)
+\\
+\pause
+Donc la droite d'équation $y=x+1$ est asymptote à C en $ -\infty $ 
+\end{frame}
+
+\begin{frame}
+\frametitle{3) Etudier la position de C par rapport à D.}
+Pour étudier la position de C par rapport à D, on étudie le signe de la différence f(x) - (x+1).
+\\
+\pause
+Soit \( f(x)-(x-1)= - \dfrac{4e^x}{e^x+1} \)
+\\
+\pause
+Or nous savons que $ \forall x, \pause e^x > 0$,
+\pause
+Donc \( - \dfrac{4e^x}{e^x+1} < 0 \)
+\\
+\pause
+Par conséquent, \pause
+la courbe C est toujours située sous la droite D.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Déterminer la limite de f en $ + \infty $}
+\( f(x)= x + 1 - \dfrac{4e^x}{e^x+1} \)
+\\
+\pause
+FORME INDETERMINEE -> Transformer l'écriture
+\\
+\pause
+\( x + 1 - \dfrac{4e^x}{e^x+1} = \pause x + 1 - \pause \dfrac{4e^x}{e^x(1+\dfrac{1}{e^x})} = \pause \dfrac{4e^x}{e^x(1+e^{-x})} \)
+\\
+\pause
+Rmq : \( e^x \times e^{-x} = \pause e^x \times \dfrac{1}{e^x} = \pause 1\)
+\\
+\pause
+Nous pouvons désormais simplifier :
+\\
+\pause
+\( x + 1 - \dfrac{4e^x}{e^x(1+e^{-x})} = x + 1 - \dfrac{4}{1+e^{-x}} \)
+\\
+\pause
+\begin{enumerate}[]
+\item \( \lim\limits_{ x \rightarrow + \infty } x + 1 = \pause + \infty \) 
+\pause
+\item \( \lim\limits_{ x \rightarrow + \infty } e^{-x} = \pause 0 \) \pause donc \( \lim\limits_{ x \rightarrow + \infty } \dfrac{4}{1+e^{-x}} = 4 \)
+\pause
+\end{enumerate}
+Par somme, \pause on en déduit que :
+\[ \lim\limits_{ x \rightarrow + \infty } f(x) = + \infty \]
+\end{frame}
+
+
+
+
+\end{document}
+
