@@ -44,7 +44,7 @@ On dit que le \textcolor{red}{taux d'accroissement} de f \pause entre a et a + h
 \pause
 \begin{exampleblock}{Exemple :}
 \pause
-calculer le taux d'accroissement \pause
+Calculer le taux d'accroissement \pause
 de la fonction $f(x)=3x -1$ \pause 
 pour a = 2 \pause et h= 0,1. \\
 \pause
@@ -96,12 +96,12 @@ f'(-1) =\lim\limits_{h \rightarrow 0}\frac{f(-1+h) - f(-1)}{h}\]
 \begin{block}{On calcule donc :}
 \pause
 \begin{enumerate}[]
-\item \(\color<25->{red}{f(-1) = 2 \times (-1)^2 + 3 \times (-1) + 4 \pause = 3} \pause \)
+\item \(\color<29->{red}{f(-1) = 2 \times (-1)^2 + 3 \times (-1) + 4 \pause = 3} \pause \)
 \item \(f(-1+ h) = 2 \times \pause (-1+h)^2 \pause + 3 \times \pause (-1+h) + \pause 4 \pause \)
 \item \(f(-1+ h) = 2 \times \pause ((-1)^2 + \pause 2 \times (-1) \times h + \pause  h^2) \pause - 3 + 3h \pause + 4 \pause \)
 \item \( f(-1+ h) = 2 \times (1 - 2h + h^2) \pause -3 +3h + 4 \pause \)
-\item \(f(-1+h) = 2 - 4h + 2h^2 -3 + 3h + 4 \pause \)
-\item \(\color<25->{red}{f(-1+ h) = 2h^2 - h + 3}\)
+\item \(f(-1+h) = \pause 2 - 4h + 2h^2 \pause -3 + 3h + 4 \pause \)
+\item \(\color<29->{red}{f(-1+ h) = \pause 2h^2 - h + 3}\)
 \end{enumerate}
 \end{block}
 \end{frame}
@@ -141,7 +141,7 @@ Donc la fonction f est dérivable en \textcolor{red}{-1} \pause et a pour nombre
 \begin{block}{Tangente :}
 Soit f une fonction définie sur un intervalle I.
 \pause
-$f'(a) = \lim\limits_{h \rightarrow 0}\dfrac{f(a+h) - f(a)}{h}$ \pause donne le coefficient directeur de la tangente à la courbe au point A.
+$f'(a) = \lim\limits_{h \rightarrow 0}\dfrac{f(a+h) - f(a)}{h}$ \pause donne \textcolor{red}{le coefficient directeur de la tangente à la courbe au point A}.
 \pause
 \end{block}
 \begin{block}{}
