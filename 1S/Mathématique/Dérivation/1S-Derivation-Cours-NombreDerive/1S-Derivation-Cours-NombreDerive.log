@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.4.10)  4 OCT 2015 15:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.4.10)  4 OCT 2015 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1199,6 +1199,9 @@ LaTeX Warning: Label `pagebanale<17>' multiply defined.
 LaTeX Warning: Label `pagebanale<18>' multiply defined.
 
 
+LaTeX Warning: Label `pagebanale<19>' multiply defined.
+
+
 LaTeX Warning: Label `pagebanale<1>' multiply defined.
 
 
@@ -1791,28 +1794,44 @@ Overfull \vbox (8.75848pt too high) detected at line 107
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 135.
+             The label is:  on input line 107.
+
+
+Overfull \vbox (8.75848pt too high) detected at line 107
+ []
 
 [57
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 135.
+             The label is:  on input line 107.
+
+
+Overfull \vbox (8.75848pt too high) detected at line 107
+ []
 
 [58
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 135.
+             The label is:  on input line 107.
+
+
+Overfull \vbox (8.75848pt too high) detected at line 107
+ []
 
 [59
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 135.
+             The label is:  on input line 107.
+
+
+Overfull \vbox (8.75848pt too high) detected at line 107
+ []
 
 [60
 
@@ -1942,45 +1961,45 @@ LaTeX Warning: The counter will not be printed.
 
 [78
 
-] [79
+]
 
-] [80
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 135.
 
-] [81
+[79
 
-] [82
+]
+
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 135.
+
+[80
+
+]
+
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 135.
+
+[81
+
+]
+
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 135.
+
+[82
 
 ] [83
 
 ] [84
 
-]
+] [85
 
-LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 201.
+] [86
 
-[85
+] [87
 
-]
-
-LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 201.
-
-[86
-
-]
-
-LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 201.
-
-[87
-
-]
-
-LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 201.
-
-[88
+] [88
 
 ]
 
@@ -2108,13 +2127,33 @@ LaTeX Warning: The counter will not be printed.
 
 [106
 
-] [107
+]
 
-] [108
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 201.
 
-] [109
+[107
 
-] [110
+]
+
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 201.
+
+[108
+
+]
+
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 201.
+
+[109
+
+]
+
+LaTeX Warning: The counter will not be printed.
+             The label is:  on input line 201.
+
+[110
 
 ] [111
 
@@ -2123,6 +2162,14 @@ LaTeX Warning: The counter will not be printed.
 ] [113
 
 ] [114
+
+] [115
+
+] [116
+
+] [117
+
+] [118
 
 ]
 \tf@nav=\write6
@@ -2154,13 +2201,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 19494 strings out of 494986
- 348661 string characters out of 6180382
- 558379 words of memory out of 5000000
- 22236 multiletter control sequences out of 15000+600000
+ 19498 strings out of 494986
+ 348725 string characters out of 6180382
+ 559482 words of memory out of 5000000
+ 22240 multiletter control sequences out of 15000+600000
  20829 words of font info for 80 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,11n,53p,612b,953s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 1S-Derivation-Cours-NombreDerive.dvi (114 pages, 1469072 byte
+Output written on 1S-Derivation-Cours-NombreDerive.dvi (118 pages, 1550384 byte
 s).
