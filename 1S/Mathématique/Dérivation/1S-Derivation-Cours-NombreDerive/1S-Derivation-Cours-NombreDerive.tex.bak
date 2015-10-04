@@ -34,7 +34,7 @@
 \pause
 \begin{block}{Définition :}
 \pause
-Soit f une fonction définie sur un intervalle I, \pause a et a + h $ \in I$, \pause. 
+Soit f une fonction définie sur un intervalle I, \pause a et a + h $ \in I$. \pause
 On dit que le \textcolor{red}{taux d'accroissement} de f \pause entre a et a + h \pause est le nombre : 
 \pause
 \end{block}
