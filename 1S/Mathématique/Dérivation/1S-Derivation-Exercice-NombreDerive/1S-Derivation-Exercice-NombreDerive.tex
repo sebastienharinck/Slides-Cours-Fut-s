@@ -1,5 +1,11 @@
+% ==========================================
+% 1S - DERIVATION - EXERCICE - NOMBRE DERIVE
+% ==========================================
+
+% ADD BEAMER THEME
 \documentclass[t]{beamer}
-%\usepackage[orientation=paysage,width=200,height=120,scale=2]{beamerposter}
+
+% ADD PACKAGES
 \usepackage{etex}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
@@ -7,17 +13,13 @@
 \usepackage{pst-eucl}
 
 \beamertemplatenavigationsymbolsempty
-% \usetheme{Warsaw}
 
+% DEFINE COLORS
 \definecolor{red}{HTML}{DD0000}
 \definecolor{green}{RGB}{51,110,23}
 \setbeamercolor{block title example}{fg=green}
 
-\title{1ère S : Dérivation - Exercices 1 : Nombre dérivé}
-\author{Sébastien Harinck}
-\institute{www.cours-futes.com}
-\date{}
-
+% DOCUMENT
 \begin{document}
 
 	\begin{frame}[label=pagebanale]
@@ -35,9 +37,7 @@
 
 	\begin{frame}
 		\frametitle{a) $f(x) = 3x^3$ au point d'abscisse 2}
-
 		\pause
-
 		\begin{block}{}
 			Pour déterminer l'équation de la tangente d'une fonction, vous devez (\underline{pour le moment}) :
 			\pause
@@ -49,9 +49,7 @@
 				\item Puis finalement, déterminer l'équation de la tangente
 			\end{enumerate}
 		\end{block}
-
 		\pause
-
 		\begin{block}{1) Calculer le taux d'accroissement :}
 			\pause
 			\begin{enumerate}[]
@@ -64,7 +62,6 @@
 	\begin{frame}
 		\frametitle{a) $f(x) = 3x^3$ au point d'abscisse 2}
 		\pause
-
 		\begin{enumerate}[]
 			\item \(\textcolor{red}{f(2) =  3 \times 2^3 = 24}\)
 			\pause
@@ -81,7 +78,6 @@
 			\item \(\textcolor{red}{f(2+h) = 3h^3 + 18h^2 + 36h + 24}\)
 			\pause
 		\end{enumerate}
-
 		\begin{block}{Ce qui nous donne :}
 			\pause
 			\begin{enumerate}[]
@@ -90,7 +86,6 @@
 				\item \(f(2+h) - f(2) = \pause 3h^3 + 18h^2 + 36h \)
 			\end{enumerate}
 		\end{block}
-
 		\pause
 		\( \dfrac{f(2+h) - f(2)}{h} = \pause \dfrac{3h^3 + 18h^2 + 36h}{h} = \pause \dfrac{h(3h^2 + 18h + 36)}{h}\)
 		\pause

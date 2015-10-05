@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.10)  5 OCT 2015 16:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.10)  5 OCT 2015 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1100,67 +1100,23 @@ Package: pst-eucl 2011/08/04 package wrapper for PSTricks pst-eucl.tex
  use option old for upward compatibility)
 File: pst-eucl.tex 2013/05/02 v1.48 `PST-eucl' (dr)
 )
-(./1S-Derivation-Exercice-NombreDerive.aux
-
-LaTeX Warning: Label `pagebanale<1>' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale<2>' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale<3>' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale<4>' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale<5>' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale<6>' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale<1>' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale<2>' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale<3>' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale<4>' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale<5>' multiply defined.
-
-
-LaTeX Warning: Label `pagebanale<6>' multiply defined.
-
-)
+No file 1S-Derivation-Exercice-NombreDerive.aux.
 \openout1 = `1S-Derivation-Exercice-NombreDerive.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1225,7 +1181,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1235,57 +1191,54 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count197
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
-
-(./1S-Derivation-Exercice-NombreDerive.out)
-(./1S-Derivation-Exercice-NombreDerive.out)
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 \@outlinefile=\write5
 \openout5 = `1S-Derivation-Exercice-NombreDerive.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 21.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 21.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 23.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 21.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 21.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 21.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 21.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 21.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 21.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 21.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 21.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 21.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 21.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 21.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 21.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 21.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 23.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1311,22 +1264,21 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 21.
+LaTeX Info: Redefining \includegraphics on input line 23.
 
-(./1S-Derivation-Exercice-NombreDerive.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
-
+No file 1S-Derivation-Exercice-NombreDerive.nav.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 34.
+(Font)              size <5> substituted on input line 36.
 
 [1
 Non-PDF special ignored!
@@ -1357,499 +1309,499 @@ Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 62.
+             The label is:  on input line 60.
 
 [7
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 62.
+             The label is:  on input line 60.
 
 [8
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 62.
+             The label is:  on input line 60.
 
 [9
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 62.
+             The label is:  on input line 60.
 
 [10
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 62.
+             The label is:  on input line 60.
 
 [11
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 62.
+             The label is:  on input line 60.
 
 [12
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 62.
+             The label is:  on input line 60.
 
 [13
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 62.
+             The label is:  on input line 60.
 
 [14
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 62.
+             The label is:  on input line 60.
 
 [15
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [16
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [17
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [18
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [19
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [20
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [21
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [22
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [23
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [24
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [25
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [26
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [27
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [28
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [29
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [30
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [31
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [32
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 98.
+             The label is:  on input line 93.
 
 [33
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [34
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [35
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [36
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [37
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [38
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [39
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [40
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [41
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [42
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [43
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [44
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [45
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [46
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 120.
+             The label is:  on input line 115.
 
 [47
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [48
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [49
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [50
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [51
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [52
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [53
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [54
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [55
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [56
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [57
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [58
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 139.
+             The label is:  on input line 134.
 
 [59
 
@@ -1857,16 +1809,16 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 	\end{frame}
+l.146 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{pagebanale}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 	\end{frame}
+l.146 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 151.
+             The label is:  on input line 146.
 
 [60
 
@@ -1874,11 +1826,11 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 	\end{frame}
+l.146 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 151.
+             The label is:  on input line 146.
 
 [61
 
@@ -1886,11 +1838,11 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 	\end{frame}
+l.146 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 151.
+             The label is:  on input line 146.
 
 [62
 
@@ -1898,11 +1850,11 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 	\end{frame}
+l.146 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 151.
+             The label is:  on input line 146.
 
 [63
 
@@ -1910,11 +1862,11 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 	\end{frame}
+l.146 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 151.
+             The label is:  on input line 146.
 
 [64
 
@@ -1922,11 +1874,11 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 	\end{frame}
+l.146 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 151.
+             The label is:  on input line 146.
 
 [65
 
@@ -1934,20 +1886,20 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 	\end{frame}
+l.169 	\end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{pagebanale}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 	\end{frame}
+l.169 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [66
 
@@ -1955,15 +1907,15 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 	\end{frame}
+l.169 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [67
 
@@ -1971,15 +1923,15 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 	\end{frame}
+l.169 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [68
 
@@ -1987,15 +1939,15 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 	\end{frame}
+l.169 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [69
 
@@ -2003,15 +1955,15 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 	\end{frame}
+l.169 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [70
 
@@ -2019,244 +1971,244 @@ LaTeX Warning: The counter will not be printed.
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 	\end{frame}
+l.169 	\end{frame}
                   
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [71
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [72
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [73
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [74
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [75
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [76
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [77
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [78
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [79
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [80
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [81
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 174.
+             The label is:  on input line 169.
 
 [82
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [83
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [84
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [85
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [86
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [87
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [88
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [89
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [90
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [91
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [92
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [93
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [94
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [95
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 190.
+             The label is:  on input line 185.
 
 [96
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 202.
+             The label is:  on input line 197.
 
 
-Overfull \vbox (8.59914pt too high) detected at line 202
+Overfull \vbox (8.59914pt too high) detected at line 197
  []
 
 [97
@@ -2264,10 +2216,10 @@ Overfull \vbox (8.59914pt too high) detected at line 202
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 202.
+             The label is:  on input line 197.
 
 
-Overfull \vbox (8.59914pt too high) detected at line 202
+Overfull \vbox (8.59914pt too high) detected at line 197
  []
 
 [98
@@ -2275,10 +2227,10 @@ Overfull \vbox (8.59914pt too high) detected at line 202
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 202.
+             The label is:  on input line 197.
 
 
-Overfull \vbox (8.59914pt too high) detected at line 202
+Overfull \vbox (8.59914pt too high) detected at line 197
  []
 
 [99
@@ -2286,10 +2238,10 @@ Overfull \vbox (8.59914pt too high) detected at line 202
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 202.
+             The label is:  on input line 197.
 
 
-Overfull \vbox (8.59914pt too high) detected at line 202
+Overfull \vbox (8.59914pt too high) detected at line 197
  []
 
 [100
@@ -2297,10 +2249,10 @@ Overfull \vbox (8.59914pt too high) detected at line 202
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 202.
+             The label is:  on input line 197.
 
 
-Overfull \vbox (8.59914pt too high) detected at line 202
+Overfull \vbox (8.59914pt too high) detected at line 197
  []
 
 [101
@@ -2308,10 +2260,10 @@ Overfull \vbox (8.59914pt too high) detected at line 202
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 202.
+             The label is:  on input line 197.
 
 
-Overfull \vbox (8.59914pt too high) detected at line 202
+Overfull \vbox (8.59914pt too high) detected at line 197
  []
 
 [102
@@ -2319,10 +2271,10 @@ Overfull \vbox (8.59914pt too high) detected at line 202
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 202.
+             The label is:  on input line 197.
 
 
-Overfull \vbox (8.59914pt too high) detected at line 202
+Overfull \vbox (8.59914pt too high) detected at line 197
  []
 
 [103
@@ -2330,479 +2282,479 @@ Overfull \vbox (8.59914pt too high) detected at line 202
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [104
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [105
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [106
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [107
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [108
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [109
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [110
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [111
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [112
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [113
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [114
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [115
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [116
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [117
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [118
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [119
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [120
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [121
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 221.
+             The label is:  on input line 216.
 
 [122
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [123
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [124
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [125
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [126
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [127
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [128
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [129
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [130
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [131
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [132
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [133
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [134
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [135
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [136
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 240.
+             The label is:  on input line 235.
 
 [137
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [138
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [139
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [140
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [141
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [142
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [143
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [144
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [145
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [146
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [147
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [148
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [149
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [150
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [151
 
 ]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 262.
+             The label is:  on input line 257.
 
 [152
 
@@ -2816,29 +2768,36 @@ LaTeX Warning: The counter will not be printed.
 \tf@snm=\write8
 \openout8 = `1S-Derivation-Exercice-NombreDerive.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
  (./1S-Derivation-Exercice-NombreDerive.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
-Package rerunfilecheck Info: File `1S-Derivation-Exercice-NombreDerive.out' has
- not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
 
+
+Package rerunfilecheck Warning: File `1S-Derivation-Exercice-NombreDerive.out' 
+has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `1S-Derivation-Exercice-NombreDerive
+.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 264.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 259.
  ) 
 Here is how much of TeX's memory you used:
- 20245 strings out of 494985
- 357712 string characters out of 6180356
- 527850 words of memory out of 5000000
- 22657 multiletter control sequences out of 15000+600000
+ 20206 strings out of 494985
+ 357153 string characters out of 6180356
+ 526848 words of memory out of 5000000
+ 22626 multiletter control sequences out of 15000+600000
  14537 words of font info for 54 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  49i,11n,53p,615b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2851,7 +2810,7 @@ st/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb>
-Output written on 1S-Derivation-Exercice-NombreDerive.pdf (152 pages, 328587 by
+Output written on 1S-Derivation-Exercice-NombreDerive.pdf (152 pages, 328505 by
 tes).
 PDF statistics:
  935 PDF objects out of 1000 (max. 8388607)
