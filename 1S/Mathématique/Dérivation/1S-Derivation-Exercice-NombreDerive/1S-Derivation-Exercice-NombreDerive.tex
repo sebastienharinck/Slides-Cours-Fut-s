@@ -19,7 +19,7 @@
 \definecolor{red}{HTML}{DD0000}
 \definecolor{green}{RGB}{51,110,23}
 \setbeamercolor{block title example}{fg=green}
-
+	
 % DOCUMENT
 \begin{document}
 
@@ -54,7 +54,7 @@
 		\begin{block}{1) Calculer le taux d'accroissement :}
 			\pause
 			\begin{enumerate}[]
-				\item<+-> $\cfrac{f(a+h)-f(a)}{h}$ où a = 2.
+				\item<+-> $\textcolor{red}{\cfrac{f(a+h)-f(a)}{h}}$ où a = 2.
 				\item<+-> \(\cfrac{f(2+h)-f(2)}{h} \)
 			\end{enumerate}
 		\end{block}
@@ -64,17 +64,17 @@
 		\frametitle{a) $f(x) = 3x^3$ au point d'abscisse 2}
 		\pause
 		\begin{enumerate}[]
-			\item \(\textcolor{red}{f(2) =  3 \times 2^3 = 24}\)
+			\item \(\textcolor{red}{f(2) =  3 \times 2^3 = \pause 24}\)
 			\pause
-			\item \(f(2+h) =  3 \times (2+h)^3 \pause = 3 \times (2+h)^2(2+h) \)
+			\item \(f(2+h) = \pause 3 \times (2+h)^3 \pause = 3 \times (2+h)^2 \pause(2+h) \)
 			\pause
-			\item \(f(2+h) = 3(2^2 + 2 \times 2 \times h + h^2)(2+h)\)
+			\item \(f(2+h) = \pause 3(2^2 + \pause 2 \times 2 \times h + \pause h^2) \pause (2+h)\)
 			\pause
-			\item \(f(2+h) = 3(4 + 4h + h^2)(2+h)\)
+			\item \(f(2+h) = \pause 3(4 + 4h + h^2)(2+h)\)
 			\pause
-			\item \(f(2+h) = 3(8 + 4h + 8h + 4h^2 + 2h^2 + h^3)\)
+			\item \(f(2+h) = \pause 3(8 + 4h + 8h + 4h^2 + 2h^2 + h^3)\)
 			\pause
-			\item \(f(2+h) = 3(h^3 + 6h^2 + 12h + 8)\)
+			\item \(f(2+h) =\pause  3(h^3 + 6h^2 + 12h + 8)\)
 			\pause
 			\item \(\textcolor{red}{f(2+h) = 3h^3 + 18h^2 + 36h + 24}\)
 			\pause
@@ -82,7 +82,7 @@
 		\begin{block}{Ce qui nous donne :}
 			\pause
 			\begin{enumerate}[]
-				\item \(f(2+h) - f(2) = \pause 3h^3 + 18h^2 + 36h + 24 - 24 \)
+				\item \(f(2+h) - f(2) = \pause 3h^3 + 18h^2 + 36h + 24 \pause - 24 \)
 				\pause
 				\item \(f(2+h) - f(2) = \pause 3h^3 + 18h^2 + 36h \)
 			\end{enumerate}
@@ -98,6 +98,7 @@
 		\pause
 		Le taux d'accroissement de la fonction f entre 2 et 2+h est égal à \pause $\textcolor{red}{3h^2 + 18h + 36}$.\pause On peut facilement en déduire le nombre dérivé de f \pause en 2 : f'(2).
 		\pause
+
 		Rappel de la formule de la dérivée d'une fonction en a : 
 		\pause
 		\begin{enumerate}[]
@@ -109,9 +110,11 @@
 		Equation de la tangente T en a :
 		\pause
 		\begin{enumerate}[]
-			\item<+-> \[\textcolor{red}{y = f'(a)(x-a) + f(a)}\]
-			\item<+-> \(y=f'(2)(x-2) + f(2) = 36(x-2) + 24 = 36x -48 \)
-			\item<+-> \[\textcolor{green}{y = 36x -48} \]
+			\item \[\textcolor{red}{y = f'(a)(x-a) + f(a)}\]
+			\pause
+			\item \(y= \pause f'(2) \pause (x-2) + \pause f(2) = \pause 36(x-2) + 24 = \pause 36x -48 \)
+			\pause
+			\item \[\textcolor{green}{y = 36x -48} \]
 		\end{enumerate}
 	\end{frame}
 
@@ -123,14 +126,21 @@
 		On cherche à calculer \( \dfrac{g(5+h) - g(5)}{h} \)
 		\pause
 		\begin{enumerate}[]
-			\item<+-> \(g(5) = \sqrt{5+1} = \sqrt{6} \)
-			\item<+-> \(g(5+h) = \sqrt{5+h+1} = \sqrt{6+h} \)
-			\item<+-> \(g(5+h) - g(5) = \sqrt{6+h} - \sqrt{6} \)
-			\item<+-> \( \dfrac{(5+h) - g(5)}{h} = \dfrac{\sqrt{6+h} - \sqrt{6}}{h} \)
-			\item<+-> L'astuce ici consiste à multiplier le numérateur et le dénominateur par \color{red}l'expression conjuguée
-			\item<+-> L'expression conjuguée de $\textcolor{red}{a+b}$ est $\textcolor{red}{a-b}$
-			\item<+-> Donc l'expression conjuguée de $\sqrt{6+h} - \sqrt{6}$ est donc $\sqrt{6+h} + \sqrt{6}$
-			\item<+-> \(\dfrac{(\sqrt{6+h} - \sqrt{6}) \textcolor{green}{\times (\sqrt{6+h} + \sqrt{6})}}{h \textcolor{green}{(\sqrt{6+h} + \sqrt{6})}}\)
+			\item \(g(5) = \pause \sqrt{5+1} = \pause \sqrt{6} \)
+			\pause
+			\item \(g(5+h) = \pause \sqrt{5+h+1} = \pause \sqrt{6+h} \)
+			\pause
+			\item \(g(5+h) - g(5) = \pause \sqrt{6+h} - \sqrt{6} \)
+			\pause
+			\item \( \dfrac{(5+h) - g(5)}{h} = \pause \dfrac{\sqrt{6+h} - \sqrt{6}}{h} \)
+			\pause
+			\item L'astuce ici consiste à multiplier le numérateur et le dénominateur par \textcolor{red}{l'expression conjuguée}
+			\pause
+			\item L'expression conjuguée de $\textcolor{green}{a+b}$ est \pause $\textcolor{green}{a-b}$
+			\pause
+			\item Donc l'expression conjuguée de $\textcolor{green}{\sqrt{6+h} - \sqrt{6}}$ \pause est $\textcolor{green}{\sqrt{6+h} + \sqrt{6}}$
+			\pause
+			\item \(\dfrac{(\sqrt{6+h} - \sqrt{6}) \textcolor{red}{\times (\sqrt{6+h} + \sqrt{6})}}{h \textcolor{red}{(\sqrt{6+h} + \sqrt{6})}}\)
 		\end{enumerate}
 	\end{frame}
 
@@ -138,7 +148,7 @@
 		\frametitle{b) $g(x) = \sqrt{x+1}$ au point d'abscisse 5}
 		\pause
 		\begin{enumerate}[]
-			\item<+-> \[\dfrac{(\sqrt{6+h} - \sqrt{6}) \textcolor{green}{\times (\sqrt{6+h} + \sqrt{6})}}{h \textcolor{green}{(\sqrt{6+h} + \sqrt{6})}}\]
+			\item<+-> \[\dfrac{(\sqrt{6+h} - \sqrt{6}) \textcolor{red}{\times (\sqrt{6+h} + \sqrt{6})}}{h \textcolor{red}{(\sqrt{6+h} + \sqrt{6})}}\]
 			\item<+-> \[\dfrac{(6+h) + \sqrt{6+h}\sqrt{6} - \sqrt{6}\sqrt{6+h} - 6}{h (\sqrt{6+h} + \sqrt{6})} \]
 			\item<+-> \[\dfrac{6+h - 6}{h (\sqrt{6+h} + \sqrt{6})} \]
 			\item<+-> \[\dfrac{h}{h (\sqrt{6+h} + \sqrt{6})} \]
@@ -225,14 +235,22 @@
 		On cherche à calculer \( \dfrac{j(3+h) - j(3)}{h} \)
 		\pause
 		\begin{enumerate}[]
-			\item<+-> \(j(-2)=(-2)^2 - 5\times (-2) + 7 = 4 + 10 + 7 = \textcolor{red}{20} \)
-			\item<+-> \(j(-2+h)=(-2+h)^2 - 5(-2+h) + 7 \)
-			\item<+-> \(j(-2+h)=((-2)^2+ 2 \times (-2) \times h + h^2) + 10 - 5h + 7 \)
-			\item<+-> \(j(-2+h)=4 - 4h + h^2 + 10 - 5h + 7 \)
-			\item<+-> \(\textcolor{red}{j(-2+h)= h^2 -9h + 20} \)
-			\item<+-> \[\dfrac{f(-2+h)-f(-2)}{h}\]
-			\item<+-> \[=\dfrac{h^2-9h+20-20}{h}\]
-			\item<+-> \[=\dfrac{h^2-9h}{h} = \pause \dfrac{h(h-9)}{h} = \pause \textcolor{green}{h-9} \]
+			\item \(j(-2)= \pause (-2)^2 - 5\times (-2) + 7 = \pause 4 + 10 + 7 = \textcolor{red}{20} \)
+			\pause
+			\item \(j(-2+h)= \pause(-2+h)^2 - 5(-2+h) + 7 \)
+			\pause
+			\item \(j(-2+h)= \pause ((-2)^2+ 2 \times (-2) \times h + h^2) + \pause 10 - 5h + 7 \)
+			\pause
+			\item \(j(-2+h)= \pause 4 - 4h + h^2 + 10 - 5h + 7 \)
+			\pause
+			\item \(\textcolor{red}{j(-2+h)= \pause h^2 -9h + 20} \)
+			\pause
+			\item \[\dfrac{f(-2+h)-f(-2)}{h}\]
+			\pause
+			\item \[=\dfrac{h^2-9h+20-20}{h}\]
+			\pause
+			\item \[=\dfrac{h^2-9h}{h} = \pause \dfrac{h(h-9)}{h} = \pause \textcolor{green}{h-9} \]
+			\pause
 		\end{enumerate}
 	\end{frame}
 
