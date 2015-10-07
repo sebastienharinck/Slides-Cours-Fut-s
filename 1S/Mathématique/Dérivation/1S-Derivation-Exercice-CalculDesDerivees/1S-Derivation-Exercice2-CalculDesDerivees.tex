@@ -1,5 +1,11 @@
+% ==================================================
+% 1S - DERIVATION - EXERCICE 2 - Calcul Des Derivees
+% ==================================================
+
+% ADD BEAMER THEME
 \documentclass[t]{beamer}
-%\usepackage[orientation=paysage,width=200,height=120,scale=2]{beamerposter}
+
+% ADD PACKAGES
 \usepackage{etex}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
@@ -7,129 +13,121 @@
 \usepackage{pst-eucl}
 
 \beamertemplatenavigationsymbolsempty
-% \usetheme{Warsaw}
 
+% DEFINE COLORS
 \definecolor{red}{HTML}{DD0000}
 \definecolor{green}{RGB}{51,110,23}
 \setbeamercolor{block title example}{fg=green}
-
-\title{1ère S : Dérivation - Exercices 2 : Calcul des dérivées}
-\author{Sébastien Harinck}
-\institute{www.cours-futes.com}
-\date{}
-
+	
+% DOCUMENT
 \begin{document}
-\begin{frame}
-\titlepage
-\end{frame}
 
-\begin{frame}[label=pagebanale]
-\frametitle{Dérivation - Exercice 1 : Nombre Dérivé}
-\pause
-\underline{Dans l'exercice 1, il y avait cette consigne :} \\
-\pause
-Déterminer les équations des tangentes aux courbes des fonctions suivantes :
-\pause
-\begin{enumerate}[a)]
-\item<+-> f définie sur $\mathbb{R}$ par $f(x) = 3x^3$ (au point d'abscisse 2)
-\item<+-> g définie sur $[-1;+\infty ]$ par $g(x) = \sqrt{x+1}$ (au point d'abscisse 5)
-\item<+-> i définie sur $\mathbb{R}^* (\textcolor{green}{]-\infty;0[\cup]0;+\infty[})$ par $i(x) = \dfrac{1}{x}$ (au point d'abscisse 3)
-\item<+-> j définie sur $\mathbb{R}$ par $j(x) = x^2 - 5x +7$ (au point d'abscisse -2)
-\end{enumerate}
-\pause
-Avec le cours précédent, \pause nous avons une autre manière de calculer la dérivée d'une fonction. \pause Nous n'allons plus nous embêter à calculer la limite du taux d'accroissement lorsque $h \rightarrow 0$. \\ 
-\pause Nous allons directement déterminer \textcolor{red}{la fonction dérivée}, \pause grâce aux \textcolor{green}{3 fonctions usuelles} \pause et aux \textcolor{green}{5 règles de dérivation}. 
-\end{frame}
+	\begin{frame}[label=pagebanale]
+		\frametitle{Dérivation - Exercice 1 : Nombre Dérivé}
+		\pause
+		\underline{Dans l'exercice 1, il y avait cette consigne :}
 
-\begin{frame}
-\frametitle{a) $f(x) = 3x^3$ au point d'abscisse 2}
-\pause
-\begin{block}{}
-Pour déterminer l'équation de la tangente d'une fonction, vous devez (\underline{maintenant}) :
-\pause
-\begin{enumerate}[1.]
-\item Déterminer la fonction dérivée f'(x) de f(x)
-\pause
-\item Calculer f'(a)
-\pause
-\item Puis finalement, déterminer l'équation de la tangente
-\end{enumerate}
-\end{block}
-\end{frame}
+		\pause
+		Déterminer les équations des tangentes aux courbes des fonctions suivantes :
+		\pause
+		\begin{enumerate}[a)]
+			\item<+-> f définie sur $\mathbb{R}$ par $f(x) = 3x^3$ (au point d'abscisse 2)
+			\item<+-> g définie sur $[-1;+\infty ]$ par $g(x) = \sqrt{x+1}$ (au point d'abscisse 5)
+			\item<+-> i définie sur $\mathbb{R}^* (\textcolor{green}{]-\infty;0[\cup]0;+\infty[})$ par $i(x) = \dfrac{1}{x}$ (au point d'abscisse 3)
+			\item<+-> j définie sur $\mathbb{R}$ par $j(x) = x^2 - 5x +7$ (au point d'abscisse -2)
+		\end{enumerate}
+		\pause
+		Avec le cours précédent, \pause nous avons une autre manière de calculer la dérivée d'une fonction. \pause Nous n'allons plus nous embêter à calculer la limite du taux d'accroissement lorsque $h \rightarrow 0$.
 
-\begin{frame}
-\frametitle{a) $f(x) = 3x^3$ au point d'abscisse 2}
-\pause
-\begin{block}{1) Déterminer la fonction dérivée f'(x) de f(x)}
-\pause
-\begin{enumerate}[]
-\pause
-\item f(x) est une fonction polynôme définie sur $\mathbb{R}$, \pause donc elle est dérivable sur $\mathbb{R}$.
-\pause
-\item On utilise la fonction usuelle suivante : \pause $ (x^n)' = \textcolor{red}{n} \times \pause x^{\textcolor{red}{n}-1} $
-\pause
-\item Et la règle de dérivation suivante : \pause $ (\textcolor{red}{\lambda} u)' = \textcolor{red}{\lambda} u' $
-\pause
-\item \(f'(x) = \pause (\textcolor{green}{3}x^{\textcolor{red}{3}})' = \pause \textcolor{red}{3} \pause \times \pause \textcolor{green}{3} \pause x^{\textcolor{red}{3}-1} = \pause \textcolor{green}{9x^2}\)
-\pause
-\item \(f'(2) = 9 \times \pause 2^2 = \pause 36 \) 
-\end{enumerate}
-\pause
-Nous pouvons déterminer l'équation de la tangente : y = f'(a)(x-a) + f(a) \\
-\(y = \pause f'(2)(x-2) + f(2) = \pause 36(x-2) + 24 = \pause 36x - 72 + 24 \)
-\pause
-\[\textcolor{red}{y = 36x + 48}  \]
-\end{block}
-\end{frame}
+		\pause Nous allons directement déterminer \textcolor{red}{la fonction dérivée}, \pause grâce aux \textcolor{green}{3 fonctions usuelles} \pause et aux \textcolor{green}{5 règles de dérivation}. 
+	\end{frame}
 
-\begin{frame}
-\frametitle{b) $g(x) = \sqrt{x+1}$ au point d'abscisse 5}
-\pause
-Vous ne pouvez pas encore faire cet exemple cette année. \pause
-Vous le verrez l'année prochaine :)
-\end{frame}
+	\begin{frame}
+		\frametitle{a) $f(x) = 3x^3$ au point d'abscisse 2}
+		\pause
+		\begin{block}{}
+			Pour déterminer l'équation de la tangente d'une fonction, vous devez (\underline{maintenant}) :
+			\pause
+			\begin{enumerate}[1.]
+				\item Déterminer la fonction dérivée f'(x) de f(x)
+				\pause
+				\item Calculer f'(a)
+				\pause
+				\item Puis finalement, déterminer l'équation de la tangente
+			\end{enumerate}
+		\end{block}
+	\end{frame}
 
-\begin{frame}
-\frametitle{c) $i(x) = \dfrac{1}{x}$ au point d'abscisse 3}
-\begin{block}{1) Déterminer la fonction dérivée f'(x) de f(x)}
-\pause
-\begin{enumerate}[]
-\pause
-\item f(x) est une fonction définie sur $\mathbb{R}$ du type $\dfrac{u}{v}$ tel que $u(x) = 1$ et $v(x)=x$
-\pause
-\item On va utiliser la règle suivante : $\left( \dfrac{u}{v} \right)' = \dfrac{u'v-v'u}{v^2} $
-\pause
-\item On utilise la fonction usuelle suivante : \pause $ (x^n)' = \textcolor{red}{n} \times \pause x^{\textcolor{red}{n}-1} $
-\item Notre but est de déterminer u' et v'
-\pause
-\item \(u'(x) = 0\)
-\pause
-\item \(v'(x) = (x^1)' = 1 \pause \times \pause x^{1-1} = \pause x^0 = 1\)
-\pause 
-\item \(i'(x) = \pause \dfrac{u'v-v'u}{v^2} = \pause \dfrac{0 \times x- 1 \times 1}{x^2} = \pause \textcolor{green}{\dfrac{-1}{x^2}} \)
-\end{enumerate}
-\end{block}
-\end{frame}
+	\begin{frame}
+		\frametitle{a) $f(x) = 3x^3$ au point d'abscisse 2}
+		\pause
+		\begin{block}{1) Déterminer la fonction dérivée f'(x) de f(x)}
+			\pause
+			\begin{enumerate}[]
+				\pause
+				\item f(x) est une fonction polynôme définie sur $\mathbb{R}$, \pause donc elle est dérivable sur $\mathbb{R}$.
+				\pause
+				\item On utilise la fonction usuelle suivante : \pause $ (x^n)' = \textcolor{red}{n} \times \pause x^{\textcolor{red}{n}-1} $
+				\pause
+				\item Et la règle de dérivation suivante : \pause $ (\textcolor{red}{\lambda} u)' = \textcolor{red}{\lambda} u' $
+				\pause
+				\item \(f'(x) = \pause (\textcolor{green}{3}x^{\textcolor{red}{3}})' = \pause \textcolor{red}{3} \pause \times \pause \textcolor{green}{3} \pause x^{\textcolor{red}{3}-1} = \pause \textcolor{green}{9x^2}\)
+				\pause
+				\item \(f'(2) = 9 \times \pause 2^2 = \pause 36 \) 
+			\end{enumerate}
+			\pause
+			Nous pouvons déterminer l'équation de la tangente : y = f'(a)(x-a) + f(a) \\
+			\(y = \pause f'(2)(x-2) + f(2) = \pause 36(x-2) + 24 = \pause 36x - 72 + 24 \)
+			\pause
+			\[\textcolor{red}{y = 36x + 48}  \]
+		\end{block}
+	\end{frame}
 
-\begin{frame}
-\frametitle{d) $j(x) = x^2 - 5x +7$ au point d'abscisse -2}
-\begin{block}{1) Déterminer la fonction dérivée j'(x) de j(x)}
-\pause
-j(x) est une fonction polynôme définie sur $\mathbb{R}$, \pause donc elle est dérivable sur $\mathbb{R}$
-\begin{enumerate}[]
-\pause
-\item On utilise la fonction usuelle suivante : \pause $ (x^n)' = \textcolor{red}{n} \times \pause x^{\textcolor{red}{n}-1} $
-\pause
-\item Et la règle de dérivation suivante : \pause $ (\textcolor{red}{\lambda} u)' = \textcolor{red}{\lambda} u' $
-\pause
-\item \(j'(x) = \pause 2 \times \pause x^{ \pause 2 \pause -1} \pause - 5 \pause \times \pause 1 \pause \times \pause x^{\pause 1 \pause -1} \pause + 0 \)
-\pause
-\item \(j'(x) = \pause \textcolor{green}{2x - 5} \)
-\end{enumerate}
-\end{block}
+	\begin{frame}
+		\frametitle{b) $g(x) = \sqrt{x+1}$ au point d'abscisse 5}
+		\pause
+		Vous ne pouvez pas encore faire cet exemple cette année. \pause
+		Vous le verrez l'année prochaine :)
+	\end{frame}
 
+	\begin{frame}
+		\frametitle{c) $i(x) = \dfrac{1}{x}$ au point d'abscisse 3}
+		\begin{block}{1) Déterminer la fonction dérivée f'(x) de f(x)}
+			\pause
+			\begin{enumerate}[]
+				\pause
+				\item f(x) est une fonction définie sur $\mathbb{R}$ du type $\dfrac{u}{v}$ tel que $u(x) = 1$ et $v(x)=x$
+				\pause
+				\item On va utiliser la règle suivante : $\left( \dfrac{u}{v} \right)' = \dfrac{u'v-v'u}{v^2} $
+				\pause
+				\item On utilise la fonction usuelle suivante : \pause $ (x^n)' = \textcolor{red}{n} \times \pause x^{\textcolor{red}{n}-1} $
+				\item Notre but est de déterminer u' et v'
+				\pause
+				\item \(u'(x) = 0\)
+				\pause
+				\item \(v'(x) = (x^1)' = 1 \pause \times \pause x^{1-1} = \pause x^0 = 1\)
+				\pause 
+				\item \(i'(x) = \pause \dfrac{u'v-v'u}{v^2} = \pause \dfrac{0 \times x- 1 \times 1}{x^2} = \pause \textcolor{green}{\dfrac{-1}{x^2}} \)
+			\end{enumerate}
+		\end{block}
+	\end{frame}
 
-\end{frame}
-
+	\begin{frame}
+		\frametitle{d) $j(x) = x^2 - 5x +7$ au point d'abscisse -2}
+		\begin{block}{1) Déterminer la fonction dérivée j'(x) de j(x)}
+			\pause
+			j(x) est une fonction polynôme définie sur $\mathbb{R}$, \pause donc elle est dérivable sur $\mathbb{R}$
+			\begin{enumerate}[]
+				\pause
+				\item On utilise la fonction usuelle suivante : \pause $ (x^n)' = \textcolor{red}{n} \times \pause x^{\textcolor{red}{n}-1} $
+				\pause
+				\item Et la règle de dérivation suivante : \pause $ (\textcolor{red}{\lambda} u)' = \textcolor{red}{\lambda} u' $
+				\pause
+				\item \(j'(x) = \pause 2 \times \pause x^{ \pause 2 \pause -1} \pause - 5 \pause \times \pause 1 \pause \times \pause x^{\pause 1 \pause -1} \pause + 0 \)
+				\pause
+				\item \(j'(x) = \pause \textcolor{green}{2x - 5} \)
+			\end{enumerate}
+		\end{block}
+	\end{frame}
 \end{document}
 

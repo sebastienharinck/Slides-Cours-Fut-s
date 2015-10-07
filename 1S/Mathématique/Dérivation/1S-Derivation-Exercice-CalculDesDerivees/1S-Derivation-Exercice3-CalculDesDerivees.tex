@@ -1,5 +1,11 @@
+% ==================================================
+% 1S - DERIVATION - EXERCICE 3 - Calcul Des Derivees
+% ==================================================
+
+% ADD BEAMER THEME
 \documentclass[t]{beamer}
-%\usepackage[orientation=paysage,width=200,height=120,scale=2]{beamerposter}
+
+% ADD PACKAGES
 \usepackage{etex}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
@@ -7,136 +13,130 @@
 \usepackage{pst-eucl}
 
 \beamertemplatenavigationsymbolsempty
-% \usetheme{Warsaw}
 
+% DEFINE COLORS
 \definecolor{red}{HTML}{DD0000}
 \definecolor{green}{RGB}{51,110,23}
 \setbeamercolor{block title example}{fg=green}
-
-%\title{1ère S : Dérivation - Exercices 2 : Calcul des dérivées}
-%\author{Sébastien Harinck}
-%\institute{www.cours-futes.com}
-%\date{}
-
+	
+% DOCUMENT
 \begin{document}
 
-\begin{frame}
-\frametitle{1ère S - Dérivation - Exercice 3 : Calcul des Dérivées}
-Dériver les 5 fonctions suivantes :
-\begin{enumerate}
-\item f définie sur $\mathbb{R}$ par $f(x) = 3x^4 - 5x^2 + 3x + 4 $
-\item h définie sur $[0;+\infty[$ par $h(x) = (x^2+1)\sqrt{x} $
-\item i définie sur $\mathbb{R} - \left\lbrace  \dfrac{1}{3} \right\rbrace $ par $i(x) = \dfrac{7x+7}{3x-1} $
-\item j définie sur $\mathbb{R}$ par $j(x) = (4x^2+3x+1)^4$
-\item k définie sur $\mathbb{R}$ par $k(x) = (x+4)^2 (x^2+3x+2) $
-\end{enumerate}
-\end{frame}
+	\begin{frame}
+		\frametitle{1ère S - Dérivation - Exercice 3 : Calcul des Dérivées}
+		Dériver les 5 fonctions suivantes :
+		\begin{enumerate}
+			\item f définie sur $\mathbb{R}$ par $f(x) = 3x^4 - 5x^2 + 3x + 4 $
+			\item h définie sur $[0;+\infty[$ par $h(x) = (x^2+1)\sqrt{x} $
+			\item i définie sur $\mathbb{R} - \left\lbrace  \dfrac{1}{3} \right\rbrace $ par $i(x) = \dfrac{7x+7}{3x-1} $
+			\item j définie sur $\mathbb{R}$ par $j(x) = (4x^2+3x+1)^4$
+			\item k définie sur $\mathbb{R}$ par $k(x) = (x+4)^2 (x^2+3x+2) $
+		\end{enumerate}
+	\end{frame}
 
-\begin{frame}
-\frametitle{$f(x) = 3x^4 - 5x^2 + 3x + 4 $ sur $\mathbb{R}$}
-\pause
-Pour dériver une fonction, vous devez le faire en 2 étapes : 
-\pause
-\begin{enumerate}
-\item Justifier la \textcolor{red}{dérivabilité de la fonction} \pause sur un \textcolor{red}{intervalle de dérivabilité}
-\pause
-\item Calculer la dérivée en utilisant les \textcolor{red}{fonctions usuelles} \pause et les \textcolor{red}{règles de dérivation}
-\pause
-\end{enumerate}
+	\begin{frame}
+		\frametitle{$f(x) = 3x^4 - 5x^2 + 3x + 4 $ sur $\mathbb{R}$}
+		\pause
+		Pour dériver une fonction, vous devez le faire en 2 étapes : 
+		\pause
+		\begin{enumerate}
+			\item Justifier la \textcolor{red}{dérivabilité de la fonction} \pause sur un \textcolor{red}{intervalle de dérivabilité}
+			\pause
+			\item Calculer la dérivée en utilisant les \textcolor{red}{fonctions usuelles} \pause et les \textcolor{red}{règles de dérivation}
+			\pause
+		\end{enumerate}
 
-\begin{block}{1) Justifier la dérivabilité de la fonction sur un intervalle de dérivabilité :}
-\pause
-$f(x) = 3x^4 - 5x^2 + 3x + 4$ est une fonction polynôme. \pause Elle est donc dérivable sur $\mathbb{R}$
-\pause
-\end{block}
+		\begin{block}{1) Justifier la dérivabilité de la fonction sur un intervalle de dérivabilité :}
+			\pause
+			$f(x) = 3x^4 - 5x^2 + 3x + 4$ est une fonction polynôme. \pause Elle est donc dérivable sur $\mathbb{R}$
+			\pause
+		\end{block}
 
-\begin{block}{2) Calculer la dérivée en utilisant les fonctions usuelles et les règles de dérivation}
-\pause
-\begin{enumerate}[]
-\item On utilise la dérivée de la fonction usuelle suivante :
-\pause
-\item \(\textcolor{green}{ (x^n)' = n \times x^{n-1} }\)
-\pause
-\item On utilise la règle de dérivation suivante :
-\pause
-\item \(\textcolor{green}{(u+v)' = u' + v'}$ \pause et $\textcolor{green}{ (\lambda u)' = \lambda u'}\)
-\pause
-\end{enumerate}
-\end{block}
-\end{frame}
+			\begin{block}{2) Calculer la dérivée en utilisant les fonctions usuelles et les règles de dérivation}
+			\pause
+			\begin{enumerate}[]
+				\item On utilise la dérivée de la fonction usuelle suivante :
+				\pause
+				\item \(\textcolor{green}{ (x^n)' = n \times x^{n-1} }\)
+				\pause
+				\item On utilise la règle de dérivation suivante :
+				\pause
+				\item \(\textcolor{green}{(u+v)' = u' + v'}$ \pause et $\textcolor{green}{ (\lambda u)' = \lambda u'}\)
+				\pause
+			\end{enumerate}
+		\end{block}
+	\end{frame}
 
-\begin{frame}
-\frametitle{$f(x) = 3x^4 - 5x^2 + 3x + 4 $ sur $\mathbb{R}$}
-\pause
-\begin{enumerate}[]
-\item \(f'(x) = 4 \times 3x^{4-1} + 2 \times (-5)x^{2-1} + 3 + 0 \)
-\pause
-\item \(\textcolor{red}{f'(x) = 12x^{3} -10x + 3} \)
-\pause
-\end{enumerate}
-\end{frame}
+	\begin{frame}
+		\frametitle{$f(x) = 3x^4 - 5x^2 + 3x + 4 $ sur $\mathbb{R}$}
+		\pause
+		\begin{enumerate}[]
+			\item \(f'(x) = 4 \times 3x^{4-1} + 2 \times (-5)x^{2-1} + 3 + 0 \)
+			\pause
+			\item \(\textcolor{red}{f'(x) = 12x^{3} -10x + 3} \)
+			\pause
+		\end{enumerate}
+	\end{frame}
 
-\begin{frame}
-\frametitle{$h(x) = (x^2+1)\sqrt{x} $ sur $[0;+\infty[$}
-\begin{block}{1) Justifier la dérivabilité de la fonction sur un intervalle de dérivabilité :}
-\pause
-h(x) est une fonction de la forme $u \times v$ où $u(x)= (x^2+1) $ et $v(x)= \sqrt{x}$. u(x) est une fonction polynôme définie et dérivable $[0;+\infty[$. x(x) est la fonction racine carrée, définie sur $[0;+\infty[$ et dérivable sur $\textcolor{red}{]0;+\infty[}$. On en déduit que h(x) sera dérivable sur $]0;+\infty[$.
-\pause
-\end{block}
+	\begin{frame}
+		\frametitle{$h(x) = (x^2+1)\sqrt{x} $ sur $[0;+\infty[$}
+			\begin{block}{1) Justifier la dérivabilité de la fonction sur un intervalle de dérivabilité :}
+			\pause
+			h(x) est une fonction de la forme $u \times v$ où $u(x)= (x^2+1) $ et $v(x)= \sqrt{x}$. u(x) est une fonction polynôme définie et dérivable $[0;+\infty[$. x(x) est la fonction racine carrée, définie sur $[0;+\infty[$ et dérivable sur $\textcolor{red}{]0;+\infty[}$. On en déduit que h(x) sera dérivable sur $]0;+\infty[$.
+			\pause
+		\end{block}
 
-\begin{block}{2) Calculer la dérivée en utilisant les fonctions usuelles et les règles de dérivation}
-\pause
-\begin{enumerate}[]
-\item On utilise la dérivée de la fonction usuelle suivante :
-\pause
-\item \(\textcolor{green}{ (x^n)' = n \times x^{n-1} }\)
-\pause
-\item \((\sqrt{x})' = \dfrac{1}{2\sqrt{x}} \)
-\pause
-\item On utilise la règle de dérivation suivante :
-\pause
-\item \(\textcolor{green}{(uv)' = u'v + v'u}$ \pause et $\textcolor{green}{ (\lambda u)' = \lambda u'}\)
-\pause
-\end{enumerate}
-\end{block}
-\end{frame}
+		\begin{block}{2) Calculer la dérivée en utilisant les fonctions usuelles et les règles de dérivation}
+			\pause
+			\begin{enumerate}[]
+				\item On utilise la dérivée de la fonction usuelle suivante :
+				\pause
+				\item \(\textcolor{green}{ (x^n)' = n \times x^{n-1} }\)
+				\pause
+				\item \((\sqrt{x})' = \dfrac{1}{2\sqrt{x}} \)
+				\pause
+				\item On utilise la règle de dérivation suivante :
+				\pause
+				\item \(\textcolor{green}{(uv)' = u'v + v'u}$ \pause et $\textcolor{green}{ (\lambda u)' = \lambda u'}\)
+				\pause
+			\end{enumerate}
+		\end{block}
+	\end{frame}
 
-\begin{frame}
-\frametitle{$h(x) = (x^2+1)\sqrt{x} $ sur $[0;+\infty[$}
-\pause
-\begin{enumerate}[]
-\item $\textcolor{green}{u(x) = (x^2+1)}$ et $\textcolor{green}{v(x) = \sqrt{x}} $ 
-\pause
-\item $\textcolor{green}{u'(x) = 2x}$ et $\textcolor{green}{v'(x) = \dfrac{1}{2\sqrt{x}}} $ 
-\pause
-\item \(h'(x) = u'v + v'u \)
-\pause
-\item \(h'(x) = 2x \times \sqrt{x} +  \dfrac{1}{2\sqrt{x}} \times (x^2+1) \)
-\pause
-\item \(h'(x) = 2x\sqrt{x} +  \dfrac{x^2+1}{2\sqrt{x}}\)
-\pause
-\item \(h'(x) = \dfrac{2x\sqrt{x}\textcolor{red}{(2\sqrt{x})}}{\textcolor{red}{2\sqrt{x}}} +  \dfrac{x^2+1}{2\sqrt{x}}\)
-\pause
-\item \(h'(x) = \dfrac{4x^2}{2\sqrt{x}} +  \dfrac{x^2+1}{2\sqrt{x}}\)
-\pause
-\item \(h'(x) = \dfrac{4x^2 + x^2+1}{2\sqrt{x}}\)
-\pause
-\item \[\textcolor{red}{h'(x) = \dfrac{5x^2+1}{2\sqrt{x}}}\]
-\end{enumerate}
-\end{frame}
+	\begin{frame}
+		\frametitle{$h(x) = (x^2+1)\sqrt{x} $ sur $[0;+\infty[$}
+		\pause
+		\begin{enumerate}[]
+			\item $\textcolor{green}{u(x) = (x^2+1)}$ et $\textcolor{green}{v(x) = \sqrt{x}} $ 
+			\pause
+			\item $\textcolor{green}{u'(x) = 2x}$ et $\textcolor{green}{v'(x) = \dfrac{1}{2\sqrt{x}}} $ 
+			\pause
+			\item \(h'(x) = u'v + v'u \)
+			\pause
+			\item \(h'(x) = 2x \times \sqrt{x} +  \dfrac{1}{2\sqrt{x}} \times (x^2+1) \)
+			\pause
+			\item \(h'(x) = 2x\sqrt{x} +  \dfrac{x^2+1}{2\sqrt{x}}\)
+			\pause
+			\item \(h'(x) = \dfrac{2x\sqrt{x}\textcolor{red}{(2\sqrt{x})}}{\textcolor{red}{2\sqrt{x}}} +  \dfrac{x^2+1}{2\sqrt{x}}\)
+			\pause
+			\item \(h'(x) = \dfrac{4x^2}{2\sqrt{x}} +  \dfrac{x^2+1}{2\sqrt{x}}\)
+			\pause
+			\item \(h'(x) = \dfrac{4x^2 + x^2+1}{2\sqrt{x}}\)
+			\pause
+			\item \[\textcolor{red}{h'(x) = \dfrac{5x^2+1}{2\sqrt{x}}}\]
+		\end{enumerate}
+	\end{frame}
 
-\begin{frame}
-\frametitle{$i(x) = \dfrac{7x+7}{3x-1} $ sur $\mathbb{R} - \left\lbrace  \dfrac{1}{3} \right\rbrace $}
-\end{frame}
+	\begin{frame}
+		\frametitle{$i(x) = \dfrac{7x+7}{3x-1} $ sur $\mathbb{R} - \left\lbrace  \dfrac{1}{3} \right\rbrace $}
+	\end{frame}
 
-\begin{frame}
-\frametitle{$j(x) = (4x^2+3x+1)^4$ sur $\mathbb{R}$}
-\end{frame}
+	\begin{frame}
+		\frametitle{$j(x) = (4x^2+3x+1)^4$ sur $\mathbb{R}$}
+	\end{frame}
 
-\begin{frame}
-\frametitle{ $k(x) = (x+4)^2 (x^2+3x+2) $ sur $\mathbb{R}$}
-\end{frame}
-
-
+	\begin{frame}
+		\frametitle{ $k(x) = (x+4)^2 (x^2+3x+2) $ sur $\mathbb{R}$}
+	\end{frame}
 \end{document}
 
