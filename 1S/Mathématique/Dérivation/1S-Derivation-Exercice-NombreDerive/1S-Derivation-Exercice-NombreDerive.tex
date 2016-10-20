@@ -30,7 +30,7 @@
 		\pause
 		\begin{enumerate}[a)]
 			\item<+-> $f(x) = 3x^3$ au point d'abscisse 2
-			\item<+-> $g(x) = \sqrt{x+1}$ au point d'abscisse 5
+			\item<+-> $g(x) = \sqrt{x+1}$ au point d'abscisse 4
 			\item<+-> $i(x) = \dfrac{1}{x}$ au point d'abscisse 3
 			\item<+-> $j(x) = x^2 - 5x +7$ au point d'abscisse -2
 		\end{enumerate}
@@ -119,54 +119,54 @@
 	\end{frame}
 
 	\begin{frame}
-		\frametitle{b) $g(x) = \sqrt{x+1}$ au point d'abscisse 5}
+		\frametitle{b) $g(x) = \sqrt{x+1}$ au point d'abscisse 4}
 		\pause
-		Calculer le taux d'accroissement de la fonction entre a et a+h. \pause Où a=5.
+		Calculer le taux d'accroissement de la fonction entre a et a+h. \pause Où a=4.
 		\pause
-		On cherche à calculer \( \dfrac{g(5+h) - g(5)}{h} \)
+		On cherche à calculer \( \dfrac{g(4+h) - g(4)}{h} \)
 		\pause
 		\begin{enumerate}[]
-			\item \(g(5) = \pause \sqrt{5+1} = \pause \sqrt{6} \)
+			\item \(g(4) = \pause \sqrt{4+1} = \pause \sqrt{5} \)
 			\pause
-			\item \(g(5+h) = \pause \sqrt{5+h+1} = \pause \sqrt{6+h} \)
+			\item \(g(4+h) = \pause \sqrt{4+h+1} = \pause \sqrt{5+h} \)
 			\pause
-			\item \(g(5+h) - g(5) = \pause \sqrt{6+h} - \sqrt{6} \)
+			\item \(g(4+h) - g(4) = \pause \sqrt{5+h} - \sqrt{5} \)
 			\pause
-			\item \( \dfrac{(5+h) - g(5)}{h} = \pause \dfrac{\sqrt{6+h} - \sqrt{6}}{h} \)
+			\item \( \dfrac{g(4+h) - g(4)}{h} = \pause \dfrac{\sqrt{5+h} - \sqrt{5}}{h} \)
 			\pause
 			\item L'astuce ici consiste à multiplier le numérateur et le dénominateur par \textcolor{red}{l'expression conjuguée}
 			\pause
 			\item L'expression conjuguée de $\textcolor{green}{a+b}$ est \pause $\textcolor{green}{a-b}$
 			\pause
-			\item Donc l'expression conjuguée de $\textcolor{green}{\sqrt{6+h} - \sqrt{6}}$ \pause est $\textcolor{green}{\sqrt{6+h} + \sqrt{6}}$
+			\item Donc l'expression conjuguée de $\textcolor{green}{\sqrt{5+h} - \sqrt{5}}$ \pause est $\textcolor{green}{\sqrt{5+h} + \sqrt{5}}$
 			\pause
-			\item \(\dfrac{(\sqrt{6+h} - \sqrt{6}) \textcolor{red}{\times (\sqrt{6+h} + \sqrt{6})}}{h \textcolor{red}{(\sqrt{6+h} + \sqrt{6})}}\)
+			\item \(\dfrac{(\sqrt{5+h} - \sqrt{5}) \textcolor{red}{\times (\sqrt{5+h} + \sqrt{5})}}{h \textcolor{red}{(\sqrt{5+h} + \sqrt{5})}}\)
 		\end{enumerate}
 	\end{frame}
 
 	\begin{frame}[label=pagebanale]
-		\frametitle{b) $g(x) = \sqrt{x+1}$ au point d'abscisse 5}
+		\frametitle{b) $g(x) = \sqrt{x+1}$ au point d'abscisse 4}
 		\pause
 		\begin{enumerate}[]
-			\item<+-> \[\dfrac{(\sqrt{6+h} - \sqrt{6}) \textcolor{red}{\times (\sqrt{6+h} + \sqrt{6})}}{h \textcolor{red}{(\sqrt{6+h} + \sqrt{6})}}\]
-			\item<+-> \[\dfrac{(6+h) + \sqrt{6+h}\sqrt{6} - \sqrt{6}\sqrt{6+h} - 6}{h (\sqrt{6+h} + \sqrt{6})} \]
-			\item<+-> \[\dfrac{6+h - 6}{h (\sqrt{6+h} + \sqrt{6})} \]
-			\item<+-> \[\dfrac{h}{h (\sqrt{6+h} + \sqrt{6})} \]
-			\item<+-> \[\dfrac{1}{\sqrt{6+h} + \sqrt{6}} \]
+			\item<+-> \[\dfrac{(\sqrt{5+h} - \sqrt{5}) \textcolor{red}{\times (\sqrt{5+h} + \sqrt{5})}}{h \textcolor{red}{(\sqrt{5+h} + \sqrt{5})}}\]
+			\item<+-> \[\dfrac{(5+h) + \sqrt{5+h}\sqrt{5} - \sqrt{5}\sqrt{5+h} - 5}{h (\sqrt{5+h} + \sqrt{5})} \]
+			\item<+-> \[\dfrac{5+h - 5}{h (\sqrt{5+h} + \sqrt{5})} \]
+			\item<+-> \[\dfrac{h}{h (\sqrt{5+h} + \sqrt{5})} \]
+			\item<+-> \[\dfrac{1}{\sqrt{5+h} + \sqrt{5}} \]
 		\end{enumerate}
 	\end{frame}
 
 	\begin{frame}[label=pagebanale]
-		\frametitle{b) $g(x) = \sqrt{x+1}$ au point d'abscisse 5}
+		\frametitle{b) $g(x) = \sqrt{x+1}$ au point d'abscisse 4}
 		\pause
-		Le taux d'accroissement de la fonction g entre 5 et 5+h est égal à \pause $\textcolor{green}{\dfrac{1}{\sqrt{6+h} + \sqrt{6}}}$.\pause On peut facilement en déduire le nombre dérivé de g en 5 : g'(5)
+		Le taux d'accroissement de la fonction g entre 4 et 4+h est égal à \pause $\textcolor{green}{\dfrac{1}{\sqrt{5+h} + \sqrt{5}}}$.\pause On peut facilement en déduire le nombre dérivé de g en 4 : g'(4)
 
 		\pause
 		Rappel de la formule de la dérivée d'une fonction en a :
 		\pause 
 		\begin{enumerate}[]
 			\item<+-> \(\textcolor{red}{g'(a) = \lim\limits_{h \rightarrow 0}\dfrac{g(a+h)-g(a)}{h}}\)
-			\item<+-> \(g'(5) = \lim\limits_{h \rightarrow 0}\dfrac{1}{\sqrt{6+h} + \sqrt{6}} = \pause \dfrac{1}{\sqrt{6} + \sqrt{6}} = \pause \textcolor{red}{\dfrac{1}{2\sqrt{6}}}\)
+			\item<+-> \(g'(4) = \lim\limits_{h \rightarrow 0}\dfrac{1}{\sqrt{5+h} + \sqrt{5}} = \pause \dfrac{1}{\sqrt{5} + \sqrt{5}} = \pause \textcolor{red}{\dfrac{1}{2\sqrt{5}}}\)
 			\pause
 		\end{enumerate}
 
@@ -174,9 +174,9 @@
 		\pause
 		\begin{enumerate}[]
 			\item<+-> \[\textcolor{red}{y = f'(a)(x-a) + f(a)}\]
-			\item<+-> \(y=g'(5)(x-5) + g(5) = \pause \dfrac{1}{2 \sqrt{6}}(x-5) + \sqrt{6}  = \pause \dfrac{1}{2 \sqrt{6}}x + \dfrac{-5}{2 \sqrt{6}} + \sqrt{6} \)
+			\item<+-> \(y=g'(4)(x-4) + g(4) = \pause \dfrac{1}{2 \sqrt{5}}(x-4) + \sqrt{5}  = \pause \dfrac{1}{2 \sqrt{5}}x + \dfrac{-4}{2 \sqrt{5}} + \sqrt{5} \)
 			\pause
-			\item<+-> \[\textcolor{green}{y = \dfrac{1}{2\sqrt{6}}x + \dfrac{7}{\sqrt{6}}}\]
+			\item<+-> \[\textcolor{green}{y = \dfrac{1}{2\sqrt{5}}x + \dfrac{6}{2\sqrt{5}} = \dfrac{1}{2\sqrt{5}}(x + 6)} \]
 		\end{enumerate}
 	\end{frame}
 
@@ -235,7 +235,7 @@
 		On cherche à calculer \( \dfrac{j(-2+h) - j(-2)}{h} \)
 		\pause
 		\begin{enumerate}[]
-			\item \(j(-2)= \pause (-2)^2 - 5\times (-2) + 7 = \pause 4 + 10 + 7 = \textcolor{red}{20} \)
+			\item \(j(-2)= \pause (-2)^2 - 5\times (-2) + 7 = \pause 4 + 10 + 7 = \textcolor{red}{21} \)
 			\pause
 			\item \(j(-2+h)= \pause(-2+h)^2 - 5(-2+h) + 7 \)
 			\pause
@@ -243,11 +243,11 @@
 			\pause
 			\item \(j(-2+h)= \pause 4 - 4h + h^2 + 10 - 5h + 7 \)
 			\pause
-			\item \(\textcolor{red}{j(-2+h)= \pause h^2 -9h + 20} \)
+			\item \(\textcolor{red}{j(-2+h)= \pause h^2 -9h + 21} \)
 			\pause
 			\item \[\dfrac{j(-2+h)-j(-2)}{h}\]
 			\pause
-			\item \[=\dfrac{h^2-9h+20-20}{h}\]
+			\item \[=\dfrac{h^2-9h+21-21}{h}\]
 			\pause
 			\item \[=\dfrac{h^2-9h}{h} = \pause \dfrac{h(h-9)}{h} = \pause \textcolor{green}{h-9} \]
 			\pause
@@ -260,7 +260,7 @@
 		Le taux d'accroissement de la fonction j entre -2 et -2+h est égal à \pause $\textcolor{green}{h-9}.$ \pause On peut facilement en déduire la valeur de j'(-2)
 		\pause
 		\begin{enumerate}[]
-			\item<+-> \(j'(-2) = \lim\limits_{h \rightarrow 0}h-9 = \pause -9 \)
+			\item<+-> \(j'(-2) = \lim\limits_{h \rightarrow 0}(h-9) = \pause -9 \)
 		\end{enumerate}
 		\pause
 		Equation de la tangente T en a :
@@ -268,11 +268,11 @@
 		\begin{enumerate}[]
 			\item<+-> \[\textcolor{red}{y = f'(a)(x-a) + f(a)}\]
 			\item<+-> \(y=j'(-2)(x-(-2)) + j(-2) \)
-			\item<+-> \(y= -9(x+4) + 20\)
-			\item<+-> \(y= -9x-36+20\)
-			\item<+-> \(y= -9x-16 \)
+			\item<+-> \(y= -9(x+2) + 21\)
+			\item<+-> \(y= -9x-18+21\)
+			\item<+-> \(y= -9x+3 \)
 			\pause
-			\item<+-> \[\textcolor{green}{y = -9x-16 }\]
+			\item<+-> \[\textcolor{green}{y = -9x+3 }\]
 		\end{enumerate}
 	\end{frame}
 
